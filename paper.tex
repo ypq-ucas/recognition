@@ -14,27 +14,28 @@
             \subsubsection{}
     \section{研究背景及现状}
         \subsection{人口老龄化}
-        我国处于人口老龄化程度持续加深阶段。
-        我国社会自20世纪末进入老龄化，是世界上老年人口最多的国家，也是老龄化速度最快的国家之一。
+        我国社会自上世纪末进入老龄化开始，老年人口数量不断增加，老龄化程度持续加深，目前已成为世界上老年人口最多的国家。截止 2019 年底，我国 60 周岁以上的人口约 2.54 亿，占总人口的 18.1\%。我国也是世界上老龄化速度最快的国家之一,
         预计到21世纪中叶，我国的老年人口规模将达到 3.8 亿，占总人口的27.9\%。
         
-        \subsection{老年认知障碍疾病}
+        \subsection{老年认知障碍训练}
 
-        老年人健康问题不仅包括身体机能老损，也包括认知能力衰退。
-        认知障碍疾病：以获得性认知功能障碍为核心，导致患者日常生活、工作、学习和社会交往能力衰退，伴或不伴随行为改变的综合征。
-        认知衰退的可逆性：依据大脑可塑性和认知储备理论，适当的认知干预会激活神经细胞，增加树突，并形成新的神经通路，使得大脑神经细胞间的信号传导层架，从而延缓甚至逆转认知下降过程。
+        随着我国老年人口数量的快速增长，社会养老、医疗相关的机构面临着越来越大的挑战，因此，社会各界愈发重视老年人的健康问题，不仅包括身体机能老损，也包括认知能力衰退。
+        认知障碍疾病是一种以获得性认知功能障碍为核心，导致患者日常生活、工作、学习和社会交往能力衰退，伴或不伴随行为改变的综合征。
+        而研究表明认知衰退具有可逆性，依据大脑可塑性和认知储备理论\cite{ref1}，适当的认知干预会激活神经细胞，增加树突，并形成新的神经通路，使得大脑神经细胞间的信号传导增加\cite{ref2}，从而延缓甚至逆转认知下降过程。因此基于以上理论设计的对人的认知能力进行的科学测评及系统化训练，能够改善认知缺陷和认知减退，提高认知能力\cite{ref3, ref4}，改善老年人认知能力衰退的程度。
 
         \subsection{认知训练现状}
 
         认知训练是通过对注意力、记忆力、执行能力和语言能力等方面的干预，改善认知功能的过程。
-        美国加州大学与芝加哥康复研究所研制康复机器人ARM Guide，通过协助肌力锻炼对脑卒中病人进行认知康复训练。
+        美国加州大学与芝加哥康复研究所研制康复机器人ARM Guide，通过协助肌肉记忆锻炼对脑卒中病人进行认知康复训练。
         Andriella等人提出一种认知机器人系统，提供不同的使用口头和手势交流的鼓励和推荐动作并从所有可用的动作中选择最适合的一个，以减少解决练习所花费的时间。
-            \section{认知训练方法}
+            \section{认知训练难度调节方法}
+            认知训练中一个重要的困难点在于如何给被训练者提供难度合适的测试项目，针对这一问题业界采取的方法可以分为两个脉络：其一是采取基于生物物理的方法，检测其脑电图、行为表现等生物信号，检测其当前状态，以提供合适的测试项目。另一脉络是采取基于人工智能的方法，通过被训练者之前的表现检测其当前状态。
         \subsection{生物物理方法}
+        生物物理方法的发展从时间上来说，首先从理论方面建立了行为预测心理状态的模型\cite{ref5}，近年来，寻找了多种能够表征用户心理状态的数据，例如脑电图\cite{ref6}、面部肌电图和电子笔数据等，其总体发展趋势是轻便化，追求用户友好，加强沉浸式认知训练，目前出于判断精度与技术成熟水平的考虑，脑电图在研究中更为普遍。
             \subsubsection{脑电图方法}
             (一) 硬件设置\paragraph{}
             脑电图反映了被训练者的情绪状态，可以被视为被训练者当前对训练难度的反馈。
-            据此，ZHIPENG HUANG \cite{ref1}等人提出可以在认知训练中通过采集被训练者的脑电信号来分析被训练者的实时状态，
+            据此，ZHIPENG HUANG \cite{ref7}等人提出可以在认知训练中通过采集被训练者的脑电信号来分析被训练者的实时状态，
             进而动态调整训练内容。实验使用可以提供多达16通道的脑电数据的EPOC+耳机作为脑电检测硬件。
             在训练过程中，被训练者在一个虚拟现实环境中，通过键盘和鼠标与环境进行交互完成任务。
 
@@ -52,7 +53,7 @@
             脑电图方法相较人工方法的优势在于能够量化被训练者感知的训练难度，在数据表现上更直观更精准。
 
             这种方法的缺陷则在于其需要非侵入性的脑电波设备完成检测，对于不同生活习惯的被训练者可能会施加不同程度的外界影响，
-            尤其在对老年人进行认知训练时，vr式的显示设备在当前技术条件下可能存在一定的生理负担。
+            尤其在对老年人进行认知训练时，VR式的显示设备在当前技术条件下可能存在一定的生理负担。
 
 
             \subsubsection{面部肌电图方法}
@@ -114,6 +115,7 @@
 
             
         \subsection{人工智能方法}
+        人工智能方法的研究主要围绕机器学习、强化学习和深度强化学习展开，通常是多种方法的结合运用，总体上来说多采用机器学习和深度学习的方式对用户进行分类，再借助强化学习方法利用新数据更新迭代现有模型，探索对用户的个性化任务难度。
             \subsubsection{机器学习}
             (一) 实验设置\paragraph{}
             Sanjana Sandeep等人指出，认知训练中现有的难度自适应算法大多只参考用户最近几次的任务表现，
@@ -134,17 +136,34 @@
 
             \subsubsection{大数据与机器学习}
             (一) 实验设置\paragraph{}
-            Jeong Joon Kim等人指出，简单的而基于计算机的认知康复重复训练难以帮助患者恢复认知功能，
-            开发了基于大数据的高效综合认知康复训练个性化推荐系统，
+            Jeong Joon Kim\cite{ref8}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
+            因此开发了基于大数据的高效综合认知康复训练个性化推荐系统，该系统具有复杂的难度等级结构，并根据平均响应时间和游戏训练结果通过算法自动调整难度等级。
             希望帮助老年人发现轻度认知障碍的初始阶段，并提供个性化训练方式。
 
-            整体架构分为综合管理、大数据管理阶段和个性化推荐三个部分。
+            其整体架构如图所示，分为综合管理组件、大数据处理组件和个性化推荐组件三个部分。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.7]{images/Overall_architecture.png}
+            	\caption{基于大数据的认知训练个性化推荐系统整体架构}
+            	\label{fig:label}
+            \end{figure}
 
             综合管理组件：将提前收集的难度分级训练内容、认知等级测试结果（训练时间、反应次数、准确度和反应时间）和个人信息保存在MySQL数据库服务器。
  
-            大数据管理阶段：利用SQOOP将数据库信息导入Hadoop HDFS（分布式文件系统）进行保存，由HIVE进行查询和处理。
+            大数据处理组件：利用SQOOP将数据库信息导入Hadoop HDFS（分布式文件系统）进行保存，其数据由HIVE进行查询和处理。
 
-            个人推荐服务组件：利用K-MEANS进行用户聚类，预测新患者或信息不多患者的认知能力和相关数据，提出基于流理论和分形模型的螺旋式训练模型，让患者在接受挑战与精神放松之间切换，提高学习效率。
+            个人推荐服务组件：利用K-MEANS进行用户聚类，利用相似的个人信息和具有认知康复内容结果（训练时间、反应次数、准确度和反应时间）的患者，预测新患者或信息不多患者的认知能力和相关数据，并提出如图所示的基于流理论和分形模型的螺旋式训练模型，让患者在接受挑战与精神放松之间切换，提高学习效率。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.7]{images/flow_theory.png}
+            	\caption{螺旋训练模型参考的流理论和分形模式}
+            	\label{fig:label}
+            \end{figure}
+            
+            
+
 
             (二) 实验结果与分析\paragraph{}
             文中表示搭建的基于大数据的模型能够通过聚类的方式对新患者的认知能力进行快速分类，
@@ -165,7 +184,7 @@
 
             \subsubsection{强化学习}
             (一) 实验设置\paragraph{}
-            FLORIANO\cite{ref2}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
+            FLORIANO\cite{ref9}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
             为了防止被训练者在过于偏离正确值的难度标准下丧失训练兴趣，
             模型的初始化值在人类训练专家的建议下设定。
 
@@ -191,19 +210,36 @@
 
             \subsubsection{深度强化学习}
             (一) 实验设置\paragraph{}
-            Pengcheng Wang等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
+            Pengcheng Wang\cite{ref10}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
             然而比较复杂的、更加接近实际情况的任务则往往有着很大的状态空间和连续的动作空间。
             对此他们提出可以使用深度强化学习的方法，利用深度学习拟合玩家当前状态，
             再通过强化学习得到相应动作，以适应任务难度。
 
-            本研究以教育性互动叙事游戏CRYSTAL ISLAND为背景，收集现实玩家数据和学习收益调查结果，
-            基于LSTM模型进行玩家模拟，为深度强化学习训练提供大量数据支持，在构建的深度强化学习层进行策略优化。
+            本研究以教育性互动叙事游戏CRYSTAL ISLAND为背景，玩家通过虚拟阅读和与NPC互动获取线索，根据交互时的用户选择，采用不同的方式进行剧情推进。以学习收益（NLG）作为游戏指标，当触发适应性事件时，机器根据当前玩家已获得的线索或测试成绩，提供不同详细程度的线索，使玩家收获较高游戏的游戏满意度和学习收益。
+            
+            其整体框架如图所示，分为数据层，玩家模拟层，强化学习层和适应性叙事层四层结构。
+            收集现实玩家数据和学习收益调查结果，并将其随机分为训练集和测试集。
+            基于LSTM模型进行玩家模拟，为深度强化学习训练提供大量数据支持，再构建的深度强化学习层进行策略优化，最后利用适应性叙事层进行评估。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.5]{images/RL_architecture.png}
+            	\caption{深度强化学习系统架构}
+            	\label{fig:label}
+            \end{figure}
 
             (二) 实验结果与分析\paragraph{}
-            实验结果表明使用Q网络可以提高非线性复杂玩家互动模式的能力，
-            合理配置的Q网络RL互动叙事规划器可以显著优于基于线性RL的互动叙事规划器。
+            通过对比采用线性强化模型和不同Q-network的强化模型进行交互得到的收敛策略值，如图所示，表明使用Q网络可以提高非线性复杂玩家互动模式的能力，
+            合理配置的Q网络RL互动叙事规划器可以显著优于基于线性RL的互动叙事规划器，并且证实了LSTM加入Q网络的有效性，适用于需要长期记忆的特殊情况。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.6]{images/policy_value.png}
+            	\caption{与玩家进行10000次互动后优化得到的评估策略值}
+            	\label{fig:label}
+            \end{figure}
 
-            深度强化学习的优势在于算法通用性强，是一种端到端的处理方式，可为监督学习产生大量的样本。
+            该方法的优势在于算法通用性强，是一种端到端的处理方式，可为监督学习产生大量的样本。
             但缺点在于需要大量训练数据（在本文中由玩家模拟层提供），训练时间长，且算法不一定收敛，需要仔细调参。
 
             \subsubsection{强化学习与马尔科夫决策}
@@ -339,7 +375,15 @@
     
     \begin{thebibliography}{99}  
 
-        \bibitem{ref1}Huang Z, Javaid A, Devabhaktuni V K, et al. Development of cognitive training program with EEG headset[J]. IEEE Access, 2019, 7: 126191-126200.
-        \bibitem{ref2}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
+        \bibitem{ref1}Rozzini L, Costardi D, Chilovi BV, et al. Efficacy of cognitive rehabilitation in patients with mild cognitive impairment treated with cholinesterase inhibitors [J]. Int J Geriatr Psychiatry，2007，22(4)：356-360.
+        \bibitem{ref2}Li BY, He NY, Qiao Y, et al. Computerized cognitive training for Chinese mild cognitive impairment patients: A neuropsychological and fMRI study [J]. Neuroimage Clin，2019，22：101691.
+        \bibitem{ref3}申婉丽,张舒涵,黄小璐,魏雷,何清华.线上认知训练的研究现状与训练效果[J]. 心理技术与应用,2019,7(11):671-682.
+        \bibitem{ref4}Lovden M, Backman L, Lindenberger U，Schaefer S,Schmiedek F. A theoretical framework for the study of adult cognitive plasticity[J]. Psychological Bulletin, 2010. 136 (4), 659-676.
+        \bibitem{ref5}Bak, J. H., Choi, J. Y., Akrami, A., Witten, I.,  Pillow, J. W. (2016). Adaptive optimal training of animal behavior. Advances in neural information processing systems, 29.
+        \bibitem{ref6}Lingelbach, K., Gado, S.,  Bauer, W. (2021). Neuro-adaptive tutoring systems. 
+        \bibitem{ref7}Huang Z, Javaid A, Devabhaktuni V K, et al. Development of cognitive training program with EEG headset[J]. IEEE Access, 2019, 7: 126191-126200.
+        \bibitem{ref8}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
+        \bibitem{ref9}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
+        \bibitem{ref10}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
         \end{thebibliography}
 \end{document}
