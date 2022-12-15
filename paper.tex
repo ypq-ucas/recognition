@@ -27,15 +27,16 @@
 
         认知训练是通过对注意力、记忆力、执行能力和语言能力等方面的干预，改善认知功能的过程。
         美国加州大学与芝加哥康复研究所研制康复机器人ARM Guide，通过协助肌肉记忆锻炼对脑卒中病人进行认知康复训练。
-        Andriella等人提出一种认知机器人系统，提供不同的使用口头和手势交流的鼓励和推荐动作并从所有可用的动作中选择最适合的一个，以减少解决练习所花费的时间。
+        Andriella等人\cite{ref5}提出一种认知机器人系统，提供不同的使用口头和手势交流的鼓励和推荐动作并从所有可用的动作中选择最适合的一个，以减少解决练习所花费的时间。
+        Buzzi等人\cite{ref6}创建了一个网络平台，应用行为分析的原则向存在认知障碍的人群提供个性化的学习和培训环境，使用了参与式设计以更好地理解用户需求。
             \section{认知训练难度调节方法}
             认知训练中一个重要的困难点在于如何给被训练者提供难度合适的测试项目，针对这一问题业界采取的方法可以分为两个脉络：其一是采取基于生物物理的方法，检测其脑电图、行为表现等生物信号，检测其当前状态，以提供合适的测试项目。另一脉络是采取基于人工智能的方法，通过被训练者之前的表现检测其当前状态。
         \subsection{生物物理方法}
-        生物物理方法的发展从时间上来说，首先从理论方面建立了行为预测心理状态的模型\cite{ref5}，近年来，寻找了多种能够表征用户心理状态的数据，例如脑电图\cite{ref6}、面部肌电图和电子笔数据等，其总体发展趋势是轻便化，追求用户友好，加强沉浸式认知训练，目前出于判断精度与技术成熟水平的考虑，脑电图在研究中更为普遍。
+        生物物理方法的发展从时间上来说，首先从理论方面建立了行为预测心理状态的模型\cite{ref7}，近年来，寻找了多种能够表征用户心理状态的数据，例如脑电图\cite{ref8}、面部肌电图和电子笔数据等，其总体发展趋势是轻便化，追求用户友好，加强沉浸式认知训练，目前出于判断精度与技术成熟水平的考虑，脑电图在研究中更为普遍。
             \subsubsection{脑电图方法}
             (一) 硬件设置\paragraph{}
             脑电图反映了被训练者的情绪状态，可以被视为被训练者当前对训练难度的反馈。
-            据此，ZHIPENG HUANG \cite{ref7}等人提出可以在认知训练中通过采集被训练者的脑电信号来分析被训练者的实时状态，
+            据此，ZHIPENG HUANG \cite{ref9}等人提出可以在认知训练中通过采集被训练者的脑电信号来分析被训练者的实时状态，
             进而动态调整训练内容。实验使用可以提供多达16通道的脑电数据的EPOC+耳机作为脑电检测硬件。
             在训练过程中，被训练者在一个虚拟现实环境中，通过键盘和鼠标与环境进行交互完成任务。
 
@@ -136,7 +137,7 @@
 
             \subsubsection{大数据与机器学习}
             (一) 实验设置\paragraph{}
-            Jeong Joon Kim\cite{ref8}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
+            Jeong Joon Kim\cite{ref10}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
             因此开发了基于大数据的高效综合认知康复训练个性化推荐系统，该系统具有复杂的难度等级结构，并根据平均响应时间和游戏训练结果通过算法自动调整难度等级。
             希望帮助老年人发现轻度认知障碍的初始阶段，并提供个性化训练方式。
 
@@ -184,7 +185,7 @@
 
             \subsubsection{强化学习}
             (一) 实验设置\paragraph{}
-            FLORIANO\cite{ref9}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
+            FLORIANO\cite{ref11}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
             为了防止被训练者在过于偏离正确值的难度标准下丧失训练兴趣，
             模型的初始化值在人类训练专家的建议下设定。
 
@@ -210,7 +211,7 @@
 
             \subsubsection{深度强化学习}
             (一) 实验设置\paragraph{}
-            Pengcheng Wang\cite{ref10}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
+            Pengcheng Wang\cite{ref12}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
             然而比较复杂的、更加接近实际情况的任务则往往有着很大的状态空间和连续的动作空间。
             对此他们提出可以使用深度强化学习的方法，利用深度学习拟合玩家当前状态，
             再通过强化学习得到相应动作，以适应任务难度。
@@ -379,11 +380,13 @@
         \bibitem{ref2}Li BY, He NY, Qiao Y, et al. Computerized cognitive training for Chinese mild cognitive impairment patients: A neuropsychological and fMRI study [J]. Neuroimage Clin，2019，22：101691.
         \bibitem{ref3}申婉丽,张舒涵,黄小璐,魏雷,何清华.线上认知训练的研究现状与训练效果[J]. 心理技术与应用,2019,7(11):671-682.
         \bibitem{ref4}Lovden M, Backman L, Lindenberger U，Schaefer S,Schmiedek F. A theoretical framework for the study of adult cognitive plasticity[J]. Psychological Bulletin, 2010. 136 (4), 659-676.
-        \bibitem{ref5}Bak, J. H., Choi, J. Y., Akrami, A., Witten, I.,  Pillow, J. W. (2016). Adaptive optimal training of animal behavior. Advances in neural information processing systems, 29.
-        \bibitem{ref6}Lingelbach, K., Gado, S.,  Bauer, W. (2021). Neuro-adaptive tutoring systems. 
-        \bibitem{ref7}Huang Z, Javaid A, Devabhaktuni V K, et al. Development of cognitive training program with EEG headset[J]. IEEE Access, 2019, 7: 126191-126200.
-        \bibitem{ref8}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
-        \bibitem{ref9}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
-        \bibitem{ref10}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
+        \bibitem{ref5}Andriella, A., Torras, C.,  Alenyà, G. (2020). Cognitive System Framework for Brain-Training Exercise Based on Human-Robot Interaction. Cognitive Computation, 1–18.
+        \bibitem{ref6}Buzzi, M. C., Buzzi, M., Perrone, E., Senette, C. (2019). Personalized technology-enhanced training for people with cognitive impairment. Universal Access in the Information Society, 1–17. 
+        \bibitem{ref7}Bak, J. H., Choi, J. Y., Akrami, A., Witten, I.,  Pillow, J. W. (2016). Adaptive optimal training of animal behavior. Advances in neural information processing systems, 29.
+        \bibitem{ref8}Lingelbach, K., Gado, S.,  Bauer, W. (2021). Neuro-adaptive tutoring systems. 
+        \bibitem{ref9}Huang Z, Javaid A, Devabhaktuni V K, et al. Development of cognitive training program with EEG headset[J]. IEEE Access, 2019, 7: 126191-126200.
+        \bibitem{ref10}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
+        \bibitem{ref11}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
+        \bibitem{ref12}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
         \end{thebibliography}
 \end{document}
