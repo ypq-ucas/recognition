@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.12.16)  16 DEC 2022 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.12.16)  16 DEC 2022 01:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,6 +288,18 @@ LaTeX Warning: Label `fig:label' multiply defined.
 
 LaTeX Warning: Label `fig:label' multiply defined.
 
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
 )
 \openout1 = `paper.aux'.
 
@@ -407,51 +419,75 @@ File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfT
 Non-PDF special ignored!
 <special> dvipdfmx:config z 0
 
-] [2] [3] [4] [5]
-<images/Overall_architecture.png, id=200, 450.9347pt x 231.11343pt>
+] [2] [3] [4]
+<images/digital_pen.png, id=191, 485.815pt x 272.01625pt>
+File: images/digital_pen.png Graphic file (type png)
+<use images/digital_pen.png>
+Package pdftex.def Info: images/digital_pen.png  used on input line 109.
+(pdftex.def)             Requested size: 242.9069pt x 136.00778pt.
+<images/pen_result.png, id=193, 1074.0125pt x 612.2875pt>
+File: images/pen_result.png Graphic file (type png)
+<use images/pen_result.png>
+Package pdftex.def Info: images/pen_result.png  used on input line 122.
+(pdftex.def)             Requested size: 322.20624pt x 183.68767pt.
+ [5 <./images/digital_pen.png>] [6 <./images/pen_result.png>]
+<images/Overall_architecture.png, id=208, 450.9347pt x 231.11343pt>
 File: images/Overall_architecture.png Graphic file (type png)
 <use images/Overall_architecture.png>
-Package pdftex.def Info: images/Overall_architecture.png  used on input line 148.
+Package pdftex.def Info: images/Overall_architecture.png  used on input line 163.
 (pdftex.def)             Requested size: 315.65213pt x 161.77829pt.
- [6 <./images/Overall_architecture.png>]
-<images/flow_theory.png, id=209, 529.22719pt x 153.57375pt>
+ [7]
+<images/flow_theory.png, id=216, 529.22719pt x 153.57375pt>
 File: images/flow_theory.png Graphic file (type png)
 <use images/flow_theory.png>
-Package pdftex.def Info: images/flow_theory.png  used on input line 161.
+Package pdftex.def Info: images/flow_theory.png  used on input line 176.
 (pdftex.def)             Requested size: 370.4565pt x 107.50089pt.
 
-Overfull \hbox (25.4565pt too wide) in paragraph at lines 161--162
+Overfull \hbox (25.4565pt too wide) in paragraph at lines 176--177
  [][] 
  []
 
-[7 <./images/flow_theory.png>] [8]
-<images/RL_architecture.png, id=225, 491.58656pt x 407.27156pt>
+[8 <./images/Overall_architecture.png> <./images/flow_theory.png>] [9]
+<images/RL_architecture.png, id=231, 491.58656pt x 407.27156pt>
 File: images/RL_architecture.png Graphic file (type png)
 <use images/RL_architecture.png>
-Package pdftex.def Info: images/RL_architecture.png  used on input line 227.
+Package pdftex.def Info: images/RL_architecture.png  used on input line 242.
 (pdftex.def)             Requested size: 245.79268pt x 203.63527pt.
-<images/policy_value.png, id=226, 542.77782pt x 208.52907pt>
+ [10]
+<images/policy_value.png, id=236, 542.77782pt x 208.52907pt>
 File: images/policy_value.png Graphic file (type png)
 <use images/policy_value.png>
-Package pdftex.def Info: images/policy_value.png  used on input line 238.
+Package pdftex.def Info: images/policy_value.png  used on input line 253.
 (pdftex.def)             Requested size: 325.6692pt x 125.1184pt.
- [9 <./images/RL_architecture.png>] [10 <./images/policy_value.png>] [11] [12] [13] [14] [15] [16] (paper.aux)
+ [11 <./images/RL_architecture.png> <./images/policy_value.png>]
+<images/Markov_game.png, id=242, 305.26547pt x 356.0803pt>
+File: images/Markov_game.png Graphic file (type png)
+<use images/Markov_game.png>
+Package pdftex.def Info: images/Markov_game.png  used on input line 268.
+(pdftex.def)             Requested size: 244.21269pt x 284.86462pt.
+ [12 <./images/Markov_game.png>]
+<images/Markov_result.png, id=251, 1302.8675pt x 738.76pt>
+File: images/Markov_result.png Graphic file (type png)
+<use images/Markov_result.png>
+Package pdftex.def Info: images/Markov_result.png  used on input line 289.
+(pdftex.def)             Requested size: 325.71608pt x 184.68954pt.
+ [13 <./images/Markov_result.png>] [14] [15] [16] [17] [18] [19] (paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7736 strings out of 478338
- 134532 string characters out of 2853117
+ 7771 strings out of 478338
+ 135357 string characters out of 2853117
  427358 words of memory out of 3000000
- 25707 multiletter control sequences out of 15000+600000
+ 25738 multiletter control sequences out of 15000+600000
  525464 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,8n,80p,740b,448s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on paper.pdf (16 pages, 1215767 bytes).
+Output written on paper.pdf (19 pages, 2038920 bytes).
 PDF statistics:
- 671 PDF objects out of 1000 (max. 8388607)
+ 689 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 

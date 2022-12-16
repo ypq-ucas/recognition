@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1671121669 "paper.tex" "paper.pdf" "paper" 1671121671 0
+["pdflatex"] 1671124987 "paper.tex" "paper.pdf" "paper" 1671124990 0
   "C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1671121054 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/DELL/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1671121005 10313544 60f99f741589bf8b184fe2954e3c2eb7 ""
   "C:/Windows/Fonts/msyh.ttc" 1622894706 19647736 4f6a5917d8a4c179f8c3ed7eec7e3a48 ""
@@ -215,12 +215,16 @@
   "D:/MiKTeX/tex/latex/tools/indentfirst.sty" 1636710260 1618 786b14c5a3e144c3a51452d08232d18b ""
   "D:/MiKTeX/tex/latex/zhnumber/zhnumber-utf8.cfg" 1657817710 5700 603e2f09dad175efabc8594730623a0b ""
   "D:/MiKTeX/tex/latex/zhnumber/zhnumber.sty" 1657817710 38160 aafa8d740e4f21b62a4acd4835e54359 ""
+  "images/Markov_game.png" 1671124395 563588 675fc4efa34982211f103162eedda303 ""
+  "images/Markov_result.png" 1671124667 231913 e362a8c748a5b06bf2407dfc0556fa0f ""
   "images/Overall_architecture.png" 1671114868 70513 754203d90ad61d278ff97d463e261007 ""
   "images/RL_architecture.png" 1671114868 206567 bf1cf2590448e32727f7e873981a7631 ""
+  "images/digital_pen.png" 1671124080 32478 04b41bde921befee7e9ca9444c8a4144 ""
   "images/flow_theory.png" 1671114868 54393 ae73af6fd5fd67798b79a3696939130c ""
+  "images/pen_result.png" 1671123805 138218 a78e3d7e3495729c9a529c19bf347032 ""
   "images/policy_value.png" 1671114868 116172 964fda14aaf550e4f0db9eb5ff45b19f ""
-  "paper.aux" 1671121670 5771 128864849f38b7eeb1bfa2b6c43a3b11 "pdflatex"
-  "paper.tex" 1671121663 33641 0599039d1bde21eb96edab5371caf3a2 ""
+  "paper.aux" 1671124989 6529 d0d7ff3fa84935cccebdb17273caee12 "pdflatex"
+  "paper.tex" 1671124983 36277 437394e81a8bd4191c8a9357f5116d62 ""
   (generated)
   "paper.aux"
   "paper.log"

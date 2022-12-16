@@ -94,24 +94,39 @@
 
             \subsubsection{电子笔信号}
             (一) 硬件设置\paragraph{}
-            Barz等人的研究认为，任务难度可以作为衡量解决任务所需心理努力的一种标准。
+            Barz等人\cite{ref10}的研究认为，任务难度可以作为衡量解决任务所需心理努力的一种标准。
             当使用电子笔进行手写时，采集到的文本和图像数据包含了通过行为表现的生物信号，
             笔端检测到的压力可以体现用户当前的心理努力和情绪状态，如享受或沮丧。
             因此本研究选用学习者用电子笔完成任务时笔端采集得到的数据特征来预测任务的难度和学习者在该任务中的表现。
 
             (二) 实验设置\paragraph{}
-            研究者对儿童进行对照实验，从不同难度的任务（如右图）中收集电子笔数据，
-            并使用不同的学习算法和特征选择策略（支持向量机、梯度增强树）系统地建模了电子笔特征与任务难度和学习者表现的关系。
+            研究者对儿童进行对照实验，从不同难度的任务中收集电子笔数据，
+            并使用不同的学习算法和特征选择策略（支持向量机、梯度增强树）系统地建模了电子笔特征与任务难度和学习者表现的关系。实验中儿童需完成的任务例子如下图所示。
+
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.5]{images/digital_pen.png}
+            	\caption{将字母和数字按间隔顺序划线连接}
+            	\label{fig:label}
+            \end{figure}
 
             (三) 实验结果与分析\paragraph{}
             在实验中，研究者选择了多种不同的特征选择方法，并使用分类算法来区分多个层次的难度。
             实验结果表明，基于电子笔的特征训练可以有效地预测任务内和跨任务的难度水平。
-            此外，该模型还可以预测解决一个任务所需的时间。
+            此外，该模型还可以预测解决一个任务所需的时间。下图展示了实验的具体结果。
 
-            收集人在交互任务时作用在媒介上的生理信号可以反馈用户当前的心理和生理状态，
-            是一个不错的判定训练难度的方式。
-            电子笔方法的缺陷在于其在用户完成与书写和绘图无关的训练任务时就无法作为采集生理信号的媒介。
-            我们认为其他的媒介（如体感交互游戏时的手柄等）也可以承担类似的作用和功能。
+            \begin{figure}[H]
+        
+            	\centering
+            	\includegraphics[scale=0.3]{images/pen_result.png}
+            	\caption{电子笔调节难度的实验结果}
+            	\label{fig:label}
+            \end{figure}
+
+            这种方式的优势在于收集人在交互任务时作用在媒介上的生理信号可以反馈用户当前的心理和生理状态，笔端压力是很容易量化的选择。
+            但是缺陷是其只在特定训练方式下有效，在用户完成与书写和绘图无关的训练任务时就无法作为采集生理信号的媒介，应用范围较窄。我们认为其他的媒介（如体感交互游戏时的手柄等）也可以承担类似的作用和功能。
+            
 
 
             
@@ -137,7 +152,7 @@
 
             \subsubsection{大数据与机器学习}
             (一) 实验设置\paragraph{}
-            Jeong Joon Kim\cite{ref10}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
+            Jeong Joon Kim\cite{ref11}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
             因此开发了基于大数据的高效综合认知康复训练个性化推荐系统，该系统具有复杂的难度等级结构，并根据平均响应时间和游戏训练结果通过算法自动调整难度等级。
             希望帮助老年人发现轻度认知障碍的初始阶段，并提供个性化训练方式。
 
@@ -185,7 +200,7 @@
 
             \subsubsection{强化学习}
             (一) 实验设置\paragraph{}
-            FLORIANO\cite{ref11}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
+            FLORIANO\cite{ref12}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
             为了防止被训练者在过于偏离正确值的难度标准下丧失训练兴趣，
             模型的初始化值在人类训练专家的建议下设定。
 
@@ -211,7 +226,7 @@
 
             \subsubsection{深度强化学习}
             (一) 实验设置\paragraph{}
-            Pengcheng Wang\cite{ref12}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
+            Pengcheng Wang\cite{ref13}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
             然而比较复杂的、更加接近实际情况的任务则往往有着很大的状态空间和连续的动作空间。
             对此他们提出可以使用深度强化学习的方法，利用深度学习拟合玩家当前状态，
             再通过强化学习得到相应动作，以适应任务难度。
@@ -245,7 +260,16 @@
 
             \subsubsection{强化学习与马尔科夫决策}
             (一) 实验设置\paragraph{}
-            研究选择了一个现有的适应性训练课程，让学习者完成课程后记录并分析了前试、后试、调查和学习者的互动日志数据。
+            Spain等人\cite{ref14}的研究选择了一个现有的适应性训练课程，让学习者完成课程后记录并分析了前试、后试、调查和学习者的互动日志数据。课程形式如下图所示。
+
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.8]{images/Markov_game.png}
+            	\caption{学习者参与的课程}
+            	\label{fig:label}
+            \end{figure}
+
             在课程中，学习者被提供了反馈和补救内容引发不同程度的认知参与。
             然后利用这些数据将教程计划建模为一个情景任务，其中每个学生日志对应一个强化学习事件，
             基于马尔科夫决策过程创建一套利用强化学习的教程规划策略，根据学习者交互日志数据进行训练，
@@ -257,9 +281,17 @@
             同时，在几种补救等级上，建设性补救是最高的，主动补救的优先级始终高于被动补救，
             而被动补救高于不补救，这与课程中逐步淡化脚手架的教学目标一致。
             教程规划所选择的补救方式取决于学生在课程中的进度、学生的先验知识和他们已经获得补救的次数。
+            实验的具体结果如下图所示。
 
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.25]{images/Markov_result.png}
+            	\caption{马尔科夫决策下的教程规划效果}
+            	\label{fig:label}
+            \end{figure}
 
-            这种方法同样具有强化学习的普遍问题,即需要大量的训练数据。
+            这种方法的优势在于引入了马尔科夫决策，对学习者状态和补救方式建立了完备的脚手架体系。但它同样具有强化学习的普遍问题,即需要大量的训练数据。
             此外，在这项研究中学习者的先验知识会对实验结果产生影响,
             而先验知识的获得是基于学习者对现有的一个训练课程的完成情况，
             这就意味着对于新的学习者无法在不完成该训练课程直接使用教程规划的情况下获得其先验知识。
@@ -360,8 +392,12 @@
     包括机器学习和强化学习等多种方式，通过对用户过往的表现建模来实现任务难度个性化；
     第二种是基于生物物理的方法，采集的用户生理信号包括脑电信号、面部肌肉信号、手写笔触信号等，
     利用这些生理信号判断用户的实时表现继而调整任务难度。
+    人机交互研究是对人和计算机的两位一体的研究，随着对人脑与认知的研究的进一步深入和神经网络在计算机领域日益重要的作用，未来基于认知科学、神经生理学和神经科学研究的转化方法将成为认知康复有效治疗发展的有前途的未来方向。
+
+
 
     \subsection{展望}
+    人机交互研究是对人和计算机的两位一体的研究，随着对人脑与认知的研究的进一步深入和神经网络在计算机领域日益重要的作用，未来基于认知科学、神经生理学和神经科学研究的转化方法将成为认知康复有效治疗发展的有前途的未来方向。
     经过我们调研总结，未来的认知训练模式将具有以下几个特性：
 
     1.精准化，个性化，具体化。认知训练应当做到为每个个体，每种不同的认知障碍，乃至同一个体不同的情绪状态做出区分，在细分领域达成更好效果。
@@ -385,8 +421,10 @@
         \bibitem{ref7}Bak, J. H., Choi, J. Y., Akrami, A., Witten, I.,  Pillow, J. W. (2016). Adaptive optimal training of animal behavior. Advances in neural information processing systems, 29.
         \bibitem{ref8}Lingelbach, K., Gado, S.,  Bauer, W. (2021). Neuro-adaptive tutoring systems. 
         \bibitem{ref9}Huang Z, Javaid A, Devabhaktuni V K, et al. Development of cognitive training program with EEG headset[J]. IEEE Access, 2019, 7: 126191-126200.
-        \bibitem{ref10}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
-        \bibitem{ref11}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
-        \bibitem{ref12}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
+        \bibitem{ref10}Barz, M., Altmeyer, K., Malone, S., Lauer, L., Sonntag, D. (2020). Digital Pen Features Predict Task Difficulty and User Performance of Cognitive Tests. Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization. 
+        \bibitem{ref11}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
+        \bibitem{ref12}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
+        \bibitem{ref13}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
+        \bibitem{ref14}Spain, R. D., Rowe, J. P., Smith, A., Goldberg, B. S., Pokorny, R., Mott, B. W., Lester, J. C. (2021). A reinforcement learning approach to adaptive remediation in online training. The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology, 19, 173–193. 
         \end{thebibliography}
 \end{document}
