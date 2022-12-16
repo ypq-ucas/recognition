@@ -10,8 +10,12 @@
 \begin{document}
     \maketitle
     \section{简介}
-        \subsection{}
-            \subsubsection{}
+    \subsection{摘要}
+    摘要：随着社会上人口老龄化的问题加深，针对老年人的认知康复训练越来越受到重视。而如何让训练系统在和用户交互的过程中自动分析用户的能力水平，
+    从而自动为特定用户设置合适的任务难度，是认知训练目前面临的一大难题。本文主要针对认知训练中的自动难度调节问题，对现有的研究进行了整理归纳，
+    总结了在难度调节问题中常用的方法，并对以上方法的优缺点和未来可能的进一步发展进行了分析评价。本文将前人的方法分为两类：基于人工智能的方法和基于生物物理的方法。
+    前者通过机器学习和强化学习等多种方式，通过对用户在认知训练中的表现和反应进行建模，从而学习出针对不同用户的难度调节策略，最终实现任务难度个性化；
+    后者通过让用户在进行训练任务时佩戴特定的设备，从而采集的用户在特定的生理信号，利用这些生理信号判断用户的实时表现继而调整任务难度。
     \section{研究背景及现状}
         \subsection{人口老龄化}
         我国社会自上世纪末进入老龄化开始，老年人口数量不断增加，老龄化程度持续加深，目前已成为世界上老年人口最多的国家。截止 2019 年底，我国 60 周岁以上的人口约 2.54 亿，占总人口的 18.1\%。我国也是世界上老龄化速度最快的国家之一,
@@ -59,15 +63,29 @@
 
             \subsubsection{面部肌电图方法}
             (一) 硬件设置\paragraph{}
-            面部肌电图同样可以反馈被训练者当前的情绪状态。
-            Lorcan Reidy等人提出了基于面部肌电图的情感反馈回路，
-            通过让用户佩戴装配有Faceteq传感器的VR头戴式耳机，
+            除了脑电图，面部肌电图同样可以反馈被训练者当前的情绪状态，
+            Lorcan Reidy\cite{ref15}等人提出了基于面部肌电图的情感反馈回路。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.8]{images/Faceteq.png}
+            	\caption{面部肌电图方法的硬件基础：配有Faceteq传感器的VR头戴式耳机\cite{ref15}}
+            	\label{fig:label}
+            \end{figure}
+            如图所示，通过让用户佩戴装配有Faceteq传感器的VR头戴式耳机，
             捕捉用户进行认知训练时的实时面部肌肉活动信号，
             采用哈尔小波变换提取数据特征并筛选后通过已有的机器学习模型完成情感分类，
             得出用户当前的情感状态。实验将根据用户的情感状态调节任务难度。
 
             (二) 实验设置\paragraph{}
-            实验设计了超市和博物馆两个VR环境和相应的任务来训练用户的记忆力。
+            如图所示，实验设计了超市和博物馆两个VR环境和相应的任务来训练用户的记忆力。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.8]{images/VR.png}
+            	\caption{VR训练环境：超市和博物馆\cite{ref15}}
+            	\label{fig:label}
+            \end{figure}
             难度等级根据需要记忆信息的数量分为三个等级。
             从任务的初始点开始，每经过45秒时间间隔记录一次肌电图数据，
             并要求用户通过VR激光笔在屏幕滑块上选择最能描述自己情感状态的选项。
@@ -76,7 +94,7 @@
             (三) 结果评估与分析\paragraph{}
             实验的效果通过对被训练者的问卷调查得出。
             根据调查结果，加入情感反馈调节之后，
-            体验感明显变好(competence)，对难度的感受有所降低（challenging），
+            体验感明显变好，对难度的感受有所降低，
             表明认知训练中用户参与度因为难度提升而降低的问题得到了一定程度的改善。
             此外，对难度提升的感受下降，流动感小幅度提升，总体感受更为积极，
             表明改进后的难度调节模型能够提供较为适宜的难度，
@@ -87,10 +105,10 @@
             2.脸部信号能提供较为丰富的交流信息；
             3.解决了基于计算机视觉的面部表情分析在VR的环境下由于设备对面部的遮挡而不适用的问题。
 
-            相较于脑电图技术，根据参与者的反馈面部传感器并未带来不适感或干扰，对用户更为友好。
+            此外，相较于脑电图技术，根据参与者的反馈，面部传感器并未带来不适感或干扰，对用户更为友好。
 
-            该方法的局限性在于目前的测试实验中参与者样本较少，说服力有待增强；
-            并且脸部肌电图虽适用于VR环境，但在非VR的环境下不一定优于其他方法（待验证）。
+            该方法的局限性在于1.目前的测试实验中参与者样本较少，说服力有待增强；
+            2.并且脸部肌电图虽适用于VR环境，但在非VR的环境下不一定优于其他方法，因此该方法在其他环境下的优越性有待验证。
 
             \subsubsection{电子笔信号}
             (一) 硬件设置\paragraph{}
@@ -134,11 +152,11 @@
         人工智能方法的研究主要围绕机器学习、强化学习和深度强化学习展开，通常是多种方法的结合运用，总体上来说多采用机器学习和深度学习的方式对用户进行分类，再借助强化学习方法利用新数据更新迭代现有模型，探索对用户的个性化任务难度。
             \subsubsection{机器学习}
             (一) 实验设置\paragraph{}
-            Sanjana Sandeep等人指出，认知训练中现有的难度自适应算法大多只参考用户最近几次的任务表现，
+            Sanjana Sandeep\cite{ref16}等人指出，认知训练中现有的难度自适应算法大多只参考用户最近几次的任务表现，
             而贝叶斯方法和深度学习模型可以对用户在较长时间内的、多轮次的训练轨迹进行建模并预测用户下一次的任务表现，
             从而据此设置合适的任务难度。
             实验召集了两组参与者，使其完成三种锻炼工作记忆的认知训练任务，全程采集被训练者在任务中的数据表现，
-            并选用隐马尔科夫模型 卡尔曼滤波模型和LSTM模型三种方法对其建模。
+            并选用隐马尔科夫模型、卡尔曼滤波模型和LSTM模型三种方法对其建模。
 
             (二) 实验结果与分析\paragraph{}
             实验结果表明，三种方法都能合理预测适宜的难度，
@@ -298,12 +316,26 @@
 
             \subsubsection{用户聚类与强化学习}
             (一) 实验设置\paragraph{}
-            Konstantinos Tsiakas等人提出，难度调节不仅要根据用户在不同难度任务下的得分，
-            还要参考用户的脑部状态——用户参与度。因此作者提出了一个交互式强化学习框架，
-            综合考虑任务得分和用户参与度，共同调节任务难度。
-            用户进行认知训练时，系统记录用户得分，同时通过EEG测量用户参与度。
-
-            研究对用户的数据采用k-means聚类，将用户分成三类，同一类用户可看作是具有相似的水平表现。
+            Konstantinos Tsiakas\cite{ref17}等人提出，难度调节不仅要根据用户在不同难度任务下的得分，
+            还要参考用户的脑部状态——用户参与度。因此作者提出了一个交互式强化学习框架，综合考虑用户得分和用户参与度，共同任务难度个性化调节。
+            如图所示，
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.8]{images/RL_Frame.png}
+            	\caption{强化学习系统框架\cite{ref17}}
+            	\label{fig:label}
+            \end{figure}
+            它包括物理部分和计算部分，用户进行认知训练时，系统会追踪当前的任务难度、机器人的反馈、用户的任务表现以及通过EEG测量到的任务参与度（task engagement），然后系统通过这些信息调节自身状态。
+            在这个过程中，机器人逐渐学习出有效策略，学习根据机器人的反馈和当前状态调节任务难度。
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.6]{images/user_model.png}
+            	\caption{用户聚类\cite{ref17}}
+            	\label{fig:label}
+            \end{figure}
+            在获得上述数据之后，对用户的数据采用k-means聚类，结果如图所示，将用户分成三类，同一类用户可看作是具有相似的水平表现。
             然后通过强化学习，得到针对不同种类用户的最优机器策略。
 
             (二) 实验结果与分析\paragraph{}
@@ -316,32 +348,6 @@
             首先，强化学习对大量训练数据的需求导致系统无法在初步交互中快速建立起策略。
             其次，由于样本数量和归类方法的限制，对用户的归类不全面，无法考虑少数个例。
             但本文在宏观框架上为后来的研究提供了较好的借鉴。
-
-            \subsubsection{宏观设计思路：游戏化\&个性化}
-            (一) 定义\paragraph{}
-            Marierose M.M. van 给出了个性化设计的系统定义：
-            将设计过程分为问题定义、产品设计和用户定制(tailoring)三个阶段，
-            将个性化定义为“在三个阶段中的包含相关用户(stakeholders)的参与”。
-
-            作者基于上述定义，对62篇文献/研究进行了评价，并从中发现大部分研究都在用户定制的阶段引入相关者的参与，
-            并且部分研究在方法学上质量更高，它们通过对有无用户定制的游戏进行比较来验证服务效果，
-            于是作者得出结论，现存的研究表明，在用户定制的阶段引入个性化设计能带来提高，
-            并且作者指出，现存的研究大多存在样本少、对变量控制不精确、和研究方法存在缺陷的问题，
-            未来需要更加有说服力的研究验证个性化的作用，也需要更多研究探索个性化能否被有效在问题定义和产品设计的阶段。
-
-            (二) 实现方法与评价\paragraph{}
-            Luiz Rodrigues等人通过对比分析前人关于游戏化的研究，
-            回答了以下三个问题：1.前人是如何设计开展实验的2.个性化游戏设计是否优于通用设计3.前人是怎样实现游戏个性化的。
-
-            对于第一个问题。作者发现大部分研究将反向适应设计和随机化游戏设计与经过个性化的游戏进行对比；
-            引入的游戏元素较少，对实验数据采用定量分析的方法，并且依赖于样本数量和时间帧。
-            对于第二个问题，作者认为由于大部分实验的对照组和反向适应和随机设计，
-            少有研究直接将个性化设计和通用设计比较，所以缺乏有力的证据验证个性化游戏设计优于通用设计。
-            对于第三个问题，作者发现大部分个性化的实现是数据驱动的而不是基于理论，并且通过参考相关文献和人为选择来设置游戏因素，
-            大多关注用户的个性和类型。
-
-            基于上述结论，作者提出未来的研究可以关注以下几个方面：
-            将个性化设计和通用设计比较、根据语境因素实现个性化、对用户反馈定性分析、系统地选择游戏因素来实现个性化、建立可以被反复使用的资源工具。
 
             \subsubsection{对主流方法的思考：生物物理信号直接分析}
             生物物理信号分析可以通过传感器直接地反映训练者当下的神经或肌肉活动。
@@ -426,5 +432,9 @@
         \bibitem{ref12}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
         \bibitem{ref13}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
         \bibitem{ref14}Spain, R. D., Rowe, J. P., Smith, A., Goldberg, B. S., Pokorny, R., Mott, B. W., Lester, J. C. (2021). A reinforcement learning approach to adaptive remediation in online training. The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology, 19, 173–193. 
-        \end{thebibliography}
+        \bibitem{ref15}Reidy, Lorcan, Dennis Chan, Charles Nduka and Hatice Gunes. “Facial Electromyography-based Adaptive Virtual Reality Gaming for Cognitive Training.” Proceedings of the 2020 International Conference on Multimodal Interaction (2020)
+        \bibitem{ref16}Sandeep, Sanjana, Christian R. Shelton, Anja Pahor, Susanne M. Jaeggi and Aaron R. Seitz. “Application of Machine Learning Models for Tracking Participant Skills in Cognitive Training.” Frontiers in Psychology 11 (2020)
+        \bibitem{ref17}Tsiakas, Konstantinos, Maher Abujelala and Fillia Makedon. “Task Engagement as Personalization Feedback for Socially-Assistive Robots and Cognitive Training.” (2018).      
+        
+    \end{thebibliography}
 \end{document}
