@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2022.5.9)  17 DEC 2022 11:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2022.5.9)  17 DEC 2022 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(c:/texlive/2020/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(c:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@section=\count168
@@ -293,8 +293,6 @@ File: ctex-scheme-chinese.def 2019/05/29 v2.4.16 Chinese scheme for generic (CTE
 File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
 )) (c:/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
-File: ctex-c5size.clo 2019/05/29 v2.4.16 c5size option (CTEX)
 ) (c:/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
 File: ctex-fontset-windows.def 2019/05/29 v2.4.16 Windows fonts definition (CTEX)
  (c:/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
@@ -361,84 +359,84 @@ LaTeX Warning: Label `fig:label' multiply defined.
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count272
@@ -458,157 +456,141 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 10.
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 11.
+LaTeX Info: Redefining \selectfont on input line 11.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 12.
  (c:/texlive/2020/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2019/05/29 v2.4.16 Chinese font definition (CTEX)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 11.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 12.
  [1
 Non-PDF special ignored!
 <special> dvipdfmx:config z 0
 
 ] [2]
-<images/timeline_bio.png, id=172, 1114.1625pt x 483.0045pt>
+<images/timeline_bio.png, id=167, 1114.1625pt x 483.0045pt>
 File: images/timeline_bio.png Graphic file (type png)
 <use images/timeline_bio.png>
-Package pdftex.def Info: images/timeline_bio.png  used on input line 52.
-(pdftex.def)             Requested size: 276.00105pt x 119.64531pt.
-<images/brain_distribute.png, id=174, 174.6525pt x 196.48407pt>
+Package pdftex.def Info: images/timeline_bio.png  used on input line 53.
+(pdftex.def)             Requested size: 312.00119pt x 135.25507pt.
+ [3 <c:/Users/admin/Desktop/recognition/images/timeline_bio.png>]
+<images/brain_distribute.png, id=182, 174.6525pt x 196.48407pt>
 File: images/brain_distribute.png Graphic file (type png)
 <use images/brain_distribute.png>
-Package pdftex.def Info: images/brain_distribute.png  used on input line 70.
+Package pdftex.def Info: images/brain_distribute.png  used on input line 71.
 (pdftex.def)             Requested size: 139.72218pt x 157.18745pt.
- [3 <c:/Users/admin/Desktop/recognition/images/timeline_bio.png>]
-<images/brain_data.png, id=189, 280.04625pt x 308.95425pt>
+ [4 <c:/Users/admin/Desktop/recognition/images/brain_distribute.png>]
+<images/brain_data.png, id=191, 280.04625pt x 308.95425pt>
 File: images/brain_data.png Graphic file (type png)
 <use images/brain_data.png>
-Package pdftex.def Info: images/brain_data.png  used on input line 91.
+Package pdftex.def Info: images/brain_data.png  used on input line 92.
 (pdftex.def)             Requested size: 224.0373pt x 247.16373pt.
- [4 <c:/Users/admin/Desktop/recognition/images/brain_distribute.png>]
-<images/Faceteq.png, id=196, 394.5942pt x 153.6942pt>
+ [5]
+<images/Faceteq.png, id=197, 394.5942pt x 153.6942pt>
 File: images/Faceteq.png Graphic file (type png)
 <use images/Faceteq.png>
-Package pdftex.def Info: images/Faceteq.png  used on input line 103.
+Package pdftex.def Info: images/Faceteq.png  used on input line 104.
 (pdftex.def)             Requested size: 315.67577pt x 122.9555pt.
- [5 <c:/Users/admin/Desktop/recognition/images/brain_data.png> <c:/Users/admin/Desktop/recognition/images/Faceteq.png>]
+ [6 <c:/Users/admin/Desktop/recognition/images/brain_data.png>]
 <images/VR.png, id=204, 370.0224pt x 227.4096pt>
 File: images/VR.png Graphic file (type png)
 <use images/VR.png>
-Package pdftex.def Info: images/VR.png  used on input line 117.
+Package pdftex.def Info: images/VR.png  used on input line 118.
 (pdftex.def)             Requested size: 296.01831pt x 181.92792pt.
- [6 <c:/Users/admin/Desktop/recognition/images/VR.png>]
-<images/digital_pen.png, id=211, 485.815pt x 272.01625pt>
+ [7 <c:/Users/admin/Desktop/recognition/images/Faceteq.png> <c:/Users/admin/Desktop/recognition/images/VR.png>] [8]
+<images/digital_pen.png, id=218, 485.815pt x 272.01625pt>
 File: images/digital_pen.png Graphic file (type png)
 <use images/digital_pen.png>
-Package pdftex.def Info: images/digital_pen.png  used on input line 159.
+Package pdftex.def Info: images/digital_pen.png  used on input line 160.
 (pdftex.def)             Requested size: 242.9069pt x 136.00778pt.
- [7]
-<images/pen_result.png, id=218, 1074.0125pt x 612.2875pt>
+<images/pen_result.png, id=219, 1074.0125pt x 612.2875pt>
 File: images/pen_result.png Graphic file (type png)
 <use images/pen_result.png>
-Package pdftex.def Info: images/pen_result.png  used on input line 172.
+Package pdftex.def Info: images/pen_result.png  used on input line 173.
 (pdftex.def)             Requested size: 322.20624pt x 183.68767pt.
- [8 <c:/Users/admin/Desktop/recognition/images/digital_pen.png> <c:/Users/admin/Desktop/recognition/images/pen_result.png>]
-<images/timeline_AI.png, id=227, 1153.911pt x 446.26724pt>
+ [9 <c:/Users/admin/Desktop/recognition/images/digital_pen.png>]
+<images/timeline_AI.png, id=226, 1153.911pt x 446.26724pt>
 File: images/timeline_AI.png Graphic file (type png)
 <use images/timeline_AI.png>
-Package pdftex.def Info: images/timeline_AI.png  used on input line 189.
-(pdftex.def)             Requested size: 276.00105pt x 106.7386pt.
- [9 <c:/Users/admin/Desktop/recognition/images/timeline_AI.png>]
-<images/Overall_architecture.png, id=235, 450.9347pt x 231.11343pt>
+Package pdftex.def Info: images/timeline_AI.png  used on input line 190.
+(pdftex.def)             Requested size: 312.00119pt x 120.664pt.
+ [10 <c:/Users/admin/Desktop/recognition/images/pen_result.png>] [11 <c:/Users/admin/Desktop/recognition/images/timeline_AI.png>]
+<images/Overall_architecture.png, id=239, 450.9347pt x 231.11343pt>
 File: images/Overall_architecture.png Graphic file (type png)
 <use images/Overall_architecture.png>
-Package pdftex.def Info: images/Overall_architecture.png  used on input line 227.
+Package pdftex.def Info: images/Overall_architecture.png  used on input line 228.
 (pdftex.def)             Requested size: 315.65213pt x 161.77829pt.
- [10]
-<images/flow_theory.png, id=242, 529.22719pt x 153.57375pt>
+ [12]
+<images/flow_theory.png, id=246, 529.22719pt x 153.57375pt>
 File: images/flow_theory.png Graphic file (type png)
 <use images/flow_theory.png>
-Package pdftex.def Info: images/flow_theory.png  used on input line 240.
+Package pdftex.def Info: images/flow_theory.png  used on input line 241.
 (pdftex.def)             Requested size: 370.4565pt x 107.50089pt.
-
-Overfull \hbox (25.4565pt too wide) in paragraph at lines 240--241
- [][] 
- []
-
-[11 <c:/Users/admin/Desktop/recognition/images/Overall_architecture.png> <c:/Users/admin/Desktop/recognition/images/flow_theory.png>]
-<images/RL_stage.png, id=250, 359.09157pt x 237.13594pt>
+ [13 <c:/Users/admin/Desktop/recognition/images/Overall_architecture.png> <c:/Users/admin/Desktop/recognition/images/flow_theory.png>]
+<images/RL_stage.png, id=255, 359.09157pt x 237.13594pt>
 File: images/RL_stage.png Graphic file (type png)
 <use images/RL_stage.png>
-Package pdftex.def Info: images/RL_stage.png  used on input line 277.
+Package pdftex.def Info: images/RL_stage.png  used on input line 278.
 (pdftex.def)             Requested size: 251.36238pt x 165.994pt.
- [12 <c:/Users/admin/Desktop/recognition/images/RL_stage.png>]
-<images/RL_architecture.png, id=257, 491.58656pt x 407.27156pt>
+ [14] [15 <c:/Users/admin/Desktop/recognition/images/RL_stage.png>]
+<images/RL_architecture.png, id=266, 491.58656pt x 407.27156pt>
 File: images/RL_architecture.png Graphic file (type png)
 <use images/RL_architecture.png>
-Package pdftex.def Info: images/RL_architecture.png  used on input line 312.
+Package pdftex.def Info: images/RL_architecture.png  used on input line 313.
 (pdftex.def)             Requested size: 245.79268pt x 203.63527pt.
- [13]
-<images/policy_value.png, id=263, 542.77782pt x 208.52907pt>
+ [16 <c:/Users/admin/Desktop/recognition/images/RL_architecture.png>]
+<images/policy_value.png, id=271, 542.77782pt x 208.52907pt>
 File: images/policy_value.png Graphic file (type png)
 <use images/policy_value.png>
-Package pdftex.def Info: images/policy_value.png  used on input line 323.
+Package pdftex.def Info: images/policy_value.png  used on input line 324.
 (pdftex.def)             Requested size: 325.6692pt x 125.1184pt.
- [14 <c:/Users/admin/Desktop/recognition/images/RL_architecture.png> <c:/Users/admin/Desktop/recognition/images/policy_value.png>]
-<images/Markov_game.png, id=269, 305.26547pt x 356.0803pt>
+<images/Markov_game.png, id=272, 305.26547pt x 356.0803pt>
 File: images/Markov_game.png Graphic file (type png)
 <use images/Markov_game.png>
-Package pdftex.def Info: images/Markov_game.png  used on input line 338.
+Package pdftex.def Info: images/Markov_game.png  used on input line 339.
 (pdftex.def)             Requested size: 244.21269pt x 284.86462pt.
- [15 <c:/Users/admin/Desktop/recognition/images/Markov_game.png>]
-<images/Markov_result.png, id=278, 1302.8675pt x 738.76pt>
+ [17 <c:/Users/admin/Desktop/recognition/images/policy_value.png>] [18 <c:/Users/admin/Desktop/recognition/images/Markov_game.png>]
+<images/Markov_result.png, id=285, 1302.8675pt x 738.76pt>
 File: images/Markov_result.png Graphic file (type png)
 <use images/Markov_result.png>
-Package pdftex.def Info: images/Markov_result.png  used on input line 359.
+Package pdftex.def Info: images/Markov_result.png  used on input line 360.
 (pdftex.def)             Requested size: 325.71608pt x 184.68954pt.
- [16 <c:/Users/admin/Desktop/recognition/images/Markov_result.png>]
-<images/RL_Frame.png, id=283, 436.029pt x 416.757pt>
+<images/RL_Frame.png, id=286, 436.029pt x 416.757pt>
 File: images/RL_Frame.png Graphic file (type png)
 <use images/RL_Frame.png>
-Package pdftex.def Info: images/RL_Frame.png  used on input line 377.
+Package pdftex.def Info: images/RL_Frame.png  used on input line 378.
 (pdftex.def)             Requested size: 348.82367pt x 333.40605pt.
-
-Overfull \hbox (3.82367pt too wide) in paragraph at lines 377--378
- [][] 
- []
-
-<images/user_model.png, id=284, 618.6312pt x 330.5148pt>
+ [19 <c:/Users/admin/Desktop/recognition/images/Markov_result.png>]
+<images/user_model.png, id=294, 618.6312pt x 330.5148pt>
 File: images/user_model.png Graphic file (type png)
 <use images/user_model.png>
-Package pdftex.def Info: images/user_model.png  used on input line 386.
+Package pdftex.def Info: images/user_model.png  used on input line 387.
 (pdftex.def)             Requested size: 371.18158pt x 198.3104pt.
-
-Overfull \hbox (26.18158pt too wide) in paragraph at lines 386--387
- [][] 
- []
-
-[17 <c:/Users/admin/Desktop/recognition/images/RL_Frame.png>] [18 <c:/Users/admin/Desktop/recognition/images/user_model.png>] [19] [20] [21] [22] [23] (c:/Users/admin/Desktop/recognition/paper.aux)
+ [20 <c:/Users/admin/Desktop/recognition/images/RL_Frame.png>] [21 <c:/Users/admin/Desktop/recognition/images/user_model.png>] [22] [23] [24] [25] [26] (c:/Users/admin/Desktop/recognition/paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8460 strings out of 480608
- 136166 string characters out of 5907537
- 355250 words of memory out of 5000000
- 23812 multiletter control sequences out of 15000+600000
- 586459 words of font info for 225 fonts, out of 8000000 for 9000
+ 8454 strings out of 480608
+ 135118 string characters out of 5907537
+ 351863 words of memory out of 5000000
+ 23805 multiletter control sequences out of 15000+600000
+ 584110 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,7n,52p,556b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on c:/Users/admin/Desktop/recognition/paper.pdf (23 pages, 3655966 bytes).
+ 46i,7n,52p,517b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on c:/Users/admin/Desktop/recognition/paper.pdf (26 pages, 3638444 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
+ 719 PDF objects out of 1000 (max. 8388607)
+ 444 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
