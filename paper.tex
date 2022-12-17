@@ -43,7 +43,12 @@
             据此，ZHIPENG HUANG \cite{ref9}等人提出可以在认知训练中通过采集被训练者的脑电信号来分析被训练者的实时状态，
             进而动态调整训练内容。实验使用可以提供多达16通道的脑电数据的EPOC+耳机作为脑电检测硬件。
             在训练过程中，被训练者在一个虚拟现实环境中，通过键盘和鼠标与环境进行交互完成任务。
-
+            \begin{figure}[H]
+            	\centering
+            	\includegraphics[scale=0.8]{images/brain_distribute.png}
+            	\caption{脑电图方法中接收到脑电信号的示意图}
+            	\label{fig:label}
+            \end{figure}
             (二) 实验设置\paragraph{}
             在实验中，被训练者需要完成反应训练，记忆训练，问题解决训练等。
             在训练过程中，脑电检测硬件会实时采集16通道的脑电数据。
@@ -59,7 +64,12 @@
 
             这种方法的缺陷则在于其需要非侵入性的脑电波设备完成检测，对于不同生活习惯的被训练者可能会施加不同程度的外界影响，
             尤其在对老年人进行认知训练时，VR式的显示设备在当前技术条件下可能存在一定的生理负担。
-
+            \begin{figure}[H]
+            	\centering
+            	\includegraphics[scale=0.8]{images/brain_data.png}
+            	\caption{脑电图方法的实验结果}
+            	\label{fig:label}
+            \end{figure}
 
             \subsubsection{面部肌电图方法}
             (一) 硬件设置\paragraph{}
@@ -225,7 +235,13 @@
             实验分为两个阶段：第一个阶段使用所有被训练者的数据对模型进行训练，
             以达到在人群上较好的泛化性；第二个阶段对于每个训练者单独训练模型，
             以达到对个人更加精准调整难度的效果。
-
+            \begin{figure}[H]
+            	
+            	\centering
+            	\includegraphics[scale=0.7]{images/RL_stage.png}
+            	\caption{强化学习的基本流程}
+            	\label{fig:label}
+            \end{figure}
             (二) 实验结果与分析\paragraph{}
             实验结果表明，在大学生的认知训练过程中使用强化学习这种有效的类别策略是可行的。
             结果显示经过这种方法的认知训练后被训练者的神经心理学指标PASAT出现显著改善，
