@@ -44,27 +44,21 @@
             检测其脑电图、行为表现等生物信号，检测其当前状态，以提供合适的测试项目。
             另一脉络是采取基于人工智能的方法，通过被训练者之前的表现检测其当前状态。
         \subsection{生物物理方法}
-        生物物理方法的发展从时间上来说，首先从理论方面建立了行为预测心理状态的模型\cite{ref7}，
-        近年来，寻找了多种能够表征用户心理状态的数据，例如脑电图\cite{ref8}、面部肌电图和电子笔数据等，
-        其总体发展趋势是轻便化，追求用户友好，加强沉浸式认知训练，目前出于判断精度与技术成熟水平的考虑，脑电图在研究中更为普遍。
-            \subsubsection{}
+        生物物理方法发展的时间线中包含了近年来的一些重点成果，如下图1所示。
             \begin{figure}[H]
             	\centering
-            	\includegraphics[width=0.8\textwidth]{images/timeline_bio.png}
+            	\includegraphics[width=1.0\textwidth]{images/timeline_bio.png}
             	\caption{生物物理方法发展的时间线}
             	\label{fig:label}
             \end{figure}
-            首先关注生物物理的方法，这里将查阅到比较核心的论文以时间线的形式在这里列出，
-            总结而言，该方法首先是从理论方面建立了行为预测心理状态的模型，
-            近年来，寻找了多种能够表征用户心理状态的数据，例如脑电图、面部肌电图和电子笔数据等，
-            其总体发展趋势是轻便化，追求用户友好，加强沉浸式认知训练，目前出于判断精度与技术成熟水平的考虑，
-            脑电图在研究中更为普遍。接下来，对图中所示的论文内容进行简要阐述。
-
+        按照时间发展，生物物理方法的发展首先从理论方面建立了行为预测心理状态的模型\cite{ref7}，
+        并在近年来学术界关注了多种能够表征用户心理状态的数据，例如脑电图\cite{ref8}、面部肌电图和电子笔数据等，
+        其总体发展趋势是轻便化，追求用户友好，加强沉浸式认知训练。目前出于判断精度与技术成熟水平的考虑，脑电图在研究中更为普遍。
             \subsubsection{脑电图方法}
             (一) 硬件设置\paragraph{}
             脑电图反映了被训练者的情绪状态，可以被视为被训练者当前对训练难度的反馈。
             据此，ZHIPENG HUANG \cite{ref9}等人提出可以在认知训练中通过采集被训练者的脑电信号来分析被训练者的实时状态，
-            进而动态调整训练内容。实验使用可以提供多达16通道的脑电数据的EPOC+耳机作为脑电检测硬件。
+            进而动态调整训练内容。实验使用可以提供多达16通道的脑电数据的EPOC+耳机作为脑电检测硬件，接收到的脑电信号示意图如下图2所示。
             在训练过程中，被训练者在一个虚拟现实环境中，通过键盘和鼠标与环境进行交互完成任务。
             \begin{figure}[H]
             	\centering
@@ -81,37 +75,37 @@
             (三) 结果评估与分析\paragraph{}
             实验结果显示，根据脑电图动态调整难度的方法可以带来显著的认知能力提升，
             且比常规训练在提高注意广度和问题解决方面更有效，
-            但对反应速度和记忆力没有影响。
+            但对反应速度和记忆力没有影响。具体的实验结果如下图3所示。
+            \begin{figure}[H]
+            	\centering
+            	\includegraphics[scale=1.0]{images/brain_data.png}
+            	\caption{脑电图方法的实验结果}
+            	\label{fig:label}
+            \end{figure}
 
             脑电图方法相较人工方法的优势在于能够量化被训练者感知的训练难度，在数据表现上更直观更精准。
 
             这种方法的缺陷则在于其需要非侵入性的脑电波设备完成检测，对于不同生活习惯的被训练者可能会施加不同程度的外界影响，
             尤其在对老年人进行认知训练时，VR式的显示设备在当前技术条件下可能存在一定的生理负担。
-            \begin{figure}[H]
-            	\centering
-            	\includegraphics[scale=0.8]{images/brain_data.png}
-            	\caption{脑电图方法的实验结果}
-            	\label{fig:label}
-            \end{figure}
 
             \subsubsection{面部肌电图方法}
             (一) 硬件设置\paragraph{}
-            除了脑电图，面部肌电图同样可以反馈被训练者当前的情绪状态，
-            Lorcan Reidy\cite{ref15}等人提出了基于面部肌电图的情感反馈回路。
+            除了脑电图，面部肌电图同样可以反馈被训练者当前的情绪状态，并根据被训练者情绪判断其对当前难度的适应情况，进而调整难度。
+            Lorcan Reidy\cite{ref10}等人提出了基于面部肌电图的情感反馈回路。
             \begin{figure}[H]
             	
             	\centering
             	\includegraphics[scale=0.8]{images/Faceteq.png}
-            	\caption{面部肌电图方法的硬件基础：配有Faceteq传感器的VR头戴式耳机\cite{ref15}}
+            	\caption{面部肌电图方法的硬件基础：配有Faceteq传感器的VR头戴式耳机}
             	\label{fig:label}
             \end{figure}
-            如图所示，通过让用户佩戴装配有Faceteq传感器的VR头戴式耳机，
+            如图4所示，通过让用户佩戴装配有Faceteq传感器的VR头戴式耳机，
             捕捉用户进行认知训练时的实时面部肌肉活动信号，
             采用哈尔小波变换提取数据特征并筛选后通过已有的机器学习模型完成情感分类，
             得出用户当前的情感状态。实验将根据用户的情感状态调节任务难度。
 
             (二) 实验设置\paragraph{}
-            如图所示，实验设计了超市和博物馆两个VR环境和相应的任务来训练用户的记忆力。
+            如图5所示，实验设计了超市和博物馆两个VR环境和相应的任务来训练用户的记忆力。
             \begin{figure}[H]
             	
             	\centering
@@ -140,19 +134,19 @@
 
             此外，相较于脑电图技术，根据参与者的反馈，面部传感器并未带来不适感或干扰，对用户更为友好。
 
-            该方法的局限性在于1.目前的测试实验中参与者样本较少，说服力有待增强；
-            2.并且脸部肌电图虽适用于VR环境，但在非VR的环境下不一定优于其他方法，因此该方法在其他环境下的优越性有待验证。
+            该方法的局限性在于目前的测试实验中参与者样本较少，说服力有待增强。
+            此外，脸部肌电图虽适用于VR环境，但在非VR的环境下不一定优于其他方法，因此该方法在其他环境下的优越性有待验证。
 
             \subsubsection{电子笔信号}
             (一) 硬件设置\paragraph{}
-            Barz等人\cite{ref10}的研究认为，任务难度可以作为衡量解决任务所需心理努力的一种标准。
+            Barz等人\cite{ref11}的研究认为，任务难度可以作为衡量解决任务所需心理努力的一种标准。
             当使用电子笔进行手写时，采集到的文本和图像数据包含了通过行为表现的生物信号，
             笔端检测到的压力可以体现用户当前的心理努力和情绪状态，如享受或沮丧。
             因此本研究选用学习者用电子笔完成任务时笔端采集得到的数据特征来预测任务的难度和学习者在该任务中的表现。
 
             (二) 实验设置\paragraph{}
             研究者对儿童进行对照实验，从不同难度的任务中收集电子笔数据，
-            并使用不同的学习算法和特征选择策略（支持向量机、梯度增强树）系统地建模了电子笔特征与任务难度和学习者表现的关系。实验中儿童需完成的任务例子如下图所示。
+            并使用不同的学习算法和特征选择策略（支持向量机、梯度增强树）系统地建模了电子笔特征与任务难度和学习者表现的关系。实验中儿童需完成的任务例子如下图6所示。
 
             \begin{figure}[H]
             	
@@ -165,7 +159,7 @@
             (三) 实验结果与分析\paragraph{}
             在实验中，研究者选择了多种不同的特征选择方法，并使用分类算法来区分多个层次的难度。
             实验结果表明，基于电子笔的特征训练可以有效地预测任务内和跨任务的难度水平。
-            此外，该模型还可以预测解决一个任务所需的时间。下图展示了实验的具体结果。
+            此外，该模型还可以预测解决一个任务所需的时间。下图7展示了实验的具体结果。
 
             \begin{figure}[H]
         
@@ -182,24 +176,20 @@
 
             
         \subsection{人工智能方法}
-        人工智能方法的研究主要围绕机器学习、强化学习和深度强化学习展开，通常是多种方法的结合运用，总体上来说多采用机器学习和深度学习的方式对用户进行分类，再借助强化学习方法利用新数据更新迭代现有模型，探索对用户的个性化任务难度。
-        \subsubsection{}
+        人工智能方法发展的时间线中包含了近年来的一些重点成果，如下图8所示。
+
         \begin{figure}[H]
             	
             \centering
-            \includegraphics[width=0.8\textwidth]{images/timeline_AI.png}
+            \includegraphics[width=1.0\textwidth]{images/timeline_AI.png}
             \caption{人工智能方法发展的时间线}
             \label{fig:label}
         \end{figure}
-        下面是人工智能方法的脉络，本文将比较核心的论文以时间线的形式列出，
-        通过调研发现，该方向的研究主要围绕机器学习、强化学习和深度强化学习展开，
-        通常是多种方法的结合运用，总体上来说多采用机器学习和深度学习的方式对用户进行分类，
-        再借助强化学习方法利用新数据更新迭代现有模型，探索对用户的个性化任务难度。
-        以下将对列出的论文进行简要阐述。
 
+        人工智能方法的研究主要围绕机器学习、强化学习和深度强化学习展开，通常是多种方法的结合运用，总体上来说多采用机器学习和深度学习的方式对用户进行分类，再借助强化学习方法利用新数据更新迭代现有模型，探索对用户的个性化任务难度。
         \subsubsection{机器学习}
             (一) 实验设置\paragraph{}
-            Sanjana Sandeep\cite{ref16}等人指出，认知训练中现有的难度自适应算法大多只参考用户最近几次的任务表现，
+            Sanjana Sandeep\cite{ref12}等人指出，认知训练中现有的难度自适应算法大多只参考用户最近几次的任务表现，
             而贝叶斯方法和深度学习模型可以对用户在较长时间内的、多轮次的训练轨迹进行建模并预测用户下一次的任务表现，
             从而据此设置合适的任务难度。
             实验召集了两组参与者，使其完成三种锻炼工作记忆的认知训练任务，全程采集被训练者在任务中的数据表现，
@@ -210,31 +200,31 @@
             其中隐马尔科夫模型对用户在特定难度下的表现预测最为准确，
             因此性能最佳。实验结果证明了机器学习方法在任务难度个性化上有较大的潜力。
 
-            我们认为机器学习方法的优势在于能够综合长期训练表现以及能够处理高维数据，
+            这是一种典型的利用机器学习完成难度自适应的方法，其优势在于能够综合长期训练表现以及能够处理高维数据，
             并且仅需记录用户任务表现训练得到，对传感器无要求。
             但缺点在于预先需要大量的训练数据，并且相比起传感器实时监测调节的方法，
             耗时相对长。
 
             \subsubsection{大数据与机器学习}
             (一) 实验设置\paragraph{}
-            Jeong Joon Kim\cite{ref11}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
+            Jeong Joon Kim\cite{ref13}等人指出，简单的基于计算机的认知康复重复训练难以帮助患者恢复认知功能，若选择在医院陪伴治疗会造成资金、空间和时间上的负担。
             因此开发了基于大数据的高效综合认知康复训练个性化推荐系统，该系统具有复杂的难度等级结构，并根据平均响应时间和游戏训练结果通过算法自动调整难度等级。
             希望帮助老年人发现轻度认知障碍的初始阶段，并提供个性化训练方式。
 
-            其整体架构如图所示，分为综合管理组件、大数据处理组件和个性化推荐组件三个部分。
+            其整体架构如图9所示，分为综合管理组件、大数据处理组件和个性化推荐组件三个部分。
             \begin{figure}[H]
             	
             	\centering
-            	\includegraphics[scale=0.7]{images/Overall_architecture.png}
+            	\includegraphics[scale=0.8]{images/Overall_architecture.png}
             	\caption{基于大数据的认知训练个性化推荐系统整体架构}
             	\label{fig:label}
             \end{figure}
 
-            综合管理组件：将提前收集的难度分级训练内容、认知等级测试结果（训练时间、反应次数、准确度和反应时间）和个人信息保存在MySQL数据库服务器。
+            综合管理组件负责将提前收集的难度分级训练内容、认知等级测试结果（训练时间、反应次数、准确度和反应时间）和个人信息保存在MySQL数据库服务器。
  
-            大数据处理组件：利用SQOOP将数据库信息导入Hadoop HDFS（分布式文件系统）进行保存，其数据由HIVE进行查询和处理。
+            大数据处理组件将利用SQOOP将数据库信息导入Hadoop HDFS（分布式文件系统）进行保存，其数据由HIVE进行查询和处理。
 
-            个人推荐服务组件：利用K-MEANS进行用户聚类，利用相似的个人信息和具有认知康复内容结果（训练时间、反应次数、准确度和反应时间）的患者，预测新患者或信息不多患者的认知能力和相关数据，并提出如图所示的基于流理论和分形模型的螺旋式训练模型，让患者在接受挑战与精神放松之间切换，提高学习效率。
+            个人推荐服务组件将利用k-means方法进行用户聚类，利用相似的个人信息和具有认知康复内容结果（训练时间、反应次数、准确度和反应时间）的患者，预测新患者或信息不多患者的认知能力和相关数据，并提出如图10所示的基于流理论和分形模型的螺旋式训练模型，让患者在接受挑战与精神放松之间切换，提高学习效率。
             \begin{figure}[H]
             	
             	\centering
@@ -251,7 +241,7 @@
             并选择适当的任务设置难度范围，再基于提出的螺旋式训练模型，
             能够让病人持续的跟随训练。
 
-            我们认为本系统为患者认知能力水平预测提供了一个基于大数据的分类思路，
+            这个康复训练个性化推荐系统为患者认知能力水平预测提供了一个基于大数据的分类思路，
             但由于缺乏后续的实验数据调查，其分类准确度没有明确指出，
             并且系统缺乏一定的训练结果反馈，可能导致分类效果不佳，
             可在后续进行性能上的优化。不过，文中提出的螺旋训练模型值得借鉴，
@@ -265,17 +255,17 @@
 
             \subsubsection{强化学习}
             (一) 实验设置\paragraph{}
-            FLORIANO\cite{ref12}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
+            Zini F\cite{ref14}等人提出，可以使用强化学习的方法，通过提取训练中被训练者的表现数据作为输入来改变模型。
             为了防止被训练者在过于偏离正确值的难度标准下丧失训练兴趣，
             模型的初始化值在人类训练专家的建议下设定。
 
             实验分为两个阶段：第一个阶段使用所有被训练者的数据对模型进行训练，
             以达到在人群上较好的泛化性；第二个阶段对于每个训练者单独训练模型，
-            以达到对个人更加精准调整难度的效果。
+            以达到对个人更加精准调整难度的效果。具体流程如下图11所示。
             \begin{figure}[H]
             	
             	\centering
-            	\includegraphics[scale=0.7]{images/RL_stage.png}
+            	\includegraphics[scale=0.9]{images/RL_stage.png}
             	\caption{强化学习的基本流程}
             	\label{fig:label}
             \end{figure}
@@ -289,7 +279,7 @@
             虽然被训练者在PASAT中获得的结果没有继续明显提升，
             但该策略能够帮助他们在更短的时间和更少的练习中获得同等的结果。
 
-            通过强化学习，我们得到了一种无需外置传感设备便能动态调整训练难度的方法，
+            强化学习是人工智能方法实现认知训练难度调整的重要方向之一，这是一种无需外置传感设备便能动态调整训练难度的方法，
             且这种方法可以实现高度的个性化。但是强化学习对输入的数据有大量需求
             ，如何保证被训练者在模型的学习期间的热情是一个亟待解决的问题。此外，
             针对每个个体单独训练模型虽然可以提升训练效果，
@@ -297,20 +287,20 @@
 
             \subsubsection{深度强化学习}
             (一) 实验设置\paragraph{}
-            Pengcheng Wang\cite{ref13}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
+            Pengcheng Wang\cite{ref15}等人提出，线性的强化学习在动作空间和样本空间都有明显的局限性，
             然而比较复杂的、更加接近实际情况的任务则往往有着很大的状态空间和连续的动作空间。
             对此他们提出可以使用深度强化学习的方法，利用深度学习拟合玩家当前状态，
             再通过强化学习得到相应动作，以适应任务难度。
 
             本研究以教育性互动叙事游戏CRYSTAL ISLAND为背景，玩家通过虚拟阅读和与NPC互动获取线索，根据交互时的用户选择，采用不同的方式进行剧情推进。以学习收益（NLG）作为游戏指标，当触发适应性事件时，机器根据当前玩家已获得的线索或测试成绩，提供不同详细程度的线索，使玩家收获较高游戏的游戏满意度和学习收益。
             
-            其整体框架如图所示，分为数据层，玩家模拟层，强化学习层和适应性叙事层四层结构。
+            其整体框架如图12所示，分为数据层，玩家模拟层，强化学习层和适应性叙事层四层结构。
             收集现实玩家数据和学习收益调查结果，并将其随机分为训练集和测试集。
             基于LSTM模型进行玩家模拟，为深度强化学习训练提供大量数据支持，再构建的深度强化学习层进行策略优化，最后利用适应性叙事层进行评估。
             \begin{figure}[H]
             	
             	\centering
-            	\includegraphics[scale=0.5]{images/RL_architecture.png}
+            	\includegraphics[scale=0.7]{images/RL_architecture.png}
             	\caption{深度强化学习系统架构}
             	\label{fig:label}
             \end{figure}
@@ -321,7 +311,7 @@
             \begin{figure}[H]
             	
             	\centering
-            	\includegraphics[scale=0.6]{images/policy_value.png}
+            	\includegraphics[scale=0.7]{images/policy_value.png}
             	\caption{与玩家进行10000次互动后优化得到的评估策略值}
             	\label{fig:label}
             \end{figure}
@@ -331,12 +321,12 @@
 
             \subsubsection{强化学习与马尔科夫决策}
             (一) 实验设置\paragraph{}
-            Spain等人\cite{ref14}的研究选择了一个现有的适应性训练课程，让学习者完成课程后记录并分析了前试、后试、调查和学习者的互动日志数据。课程形式如下图所示。
+            强化学习不仅可以和深度学习相结合，还可以和其他优化算法如马尔科夫决策共同完成训练。Spain等人\cite{ref16}的研究在强化学习的基础上利用马尔科夫决策来建模学生的当前状态和训练者应采取的措施之间的关系。研究首先选择了一个现有的适应性训练课程，让学习者完成课程后记录并分析了前试、后试、调查和学习者的互动日志数据。课程形式如下图所示。
 
             \begin{figure}[H]
             	
             	\centering
-            	\includegraphics[scale=0.8]{images/Markov_game.png}
+            	\includegraphics[scale=1.0]{images/Markov_game.png}
             	\caption{学习者参与的课程}
             	\label{fig:label}
             \end{figure}
@@ -371,12 +361,12 @@
             (一) 实验设置\paragraph{}
             Konstantinos Tsiakas\cite{ref17}等人提出，难度调节不仅要根据用户在不同难度任务下的得分，
             还要参考用户的脑部状态——用户参与度。因此作者提出了一个交互式强化学习框架，综合考虑用户得分和用户参与度，共同任务难度个性化调节。
-            如图所示，
+            具体的框架如图16所示。
             \begin{figure}[H]
             	
             	\centering
             	\includegraphics[scale=0.8]{images/RL_Frame.png}
-            	\caption{强化学习系统框架\cite{ref17}}
+            	\caption{强化学习系统框架}
             	\label{fig:label}
             \end{figure}
             它包括物理部分和计算部分，用户进行认知训练时，系统会追踪当前的任务难度、机器人的反馈、用户的任务表现以及通过EEG测量到的任务参与度（task engagement），然后系统通过这些信息调节自身状态。
@@ -385,10 +375,10 @@
             	
             	\centering
             	\includegraphics[scale=0.6]{images/user_model.png}
-            	\caption{用户聚类\cite{ref17}}
+            	\caption{用户聚类}
             	\label{fig:label}
             \end{figure}
-            在获得上述数据之后，对用户的数据采用k-means聚类，结果如图所示，将用户分成三类，同一类用户可看作是具有相似的水平表现。
+            在获得上述数据之后，对用户的数据采用k-means聚类，结果如图17所示，将用户分成三类，同一类用户可看作是具有相似的水平表现。
             然后通过强化学习，得到针对不同种类用户的最优机器策略。
 
             (二) 实验结果与分析\paragraph{}
@@ -400,9 +390,9 @@
             学习得到合适的难度策略。但在实际用途上有较为明显的局限性。
             首先，强化学习对大量训练数据的需求导致系统无法在初步交互中快速建立起策略。
             其次，由于样本数量和归类方法的限制，对用户的归类不全面，无法考虑少数个例。
-            但本文在宏观框架上为后来的研究提供了较好的借鉴。
-
-            \subsubsection{对主流方法的思考：生物物理信号直接分析}
+            但这项研究在宏观框架上为后来的研究提供了较好的借鉴。
+            \subsection{两种主流方法的利弊比较}
+            \subsubsection{生物物理信号直接分析}
             生物物理信号分析可以通过传感器直接地反映训练者当下的神经或肌肉活动。
 
             并且传感器信号具有实时性，可以即刻反映用户某处状态的变化，能让系统快速获得用户反馈并即时根据用户的状态改变策略。
@@ -451,15 +441,13 @@
     包括机器学习和强化学习等多种方式，通过对用户过往的表现建模来实现任务难度个性化；
     第二种是基于生物物理的方法，采集的用户生理信号包括脑电信号、面部肌肉信号、手写笔触信号等，
     利用这些生理信号判断用户的实时表现继而调整任务难度。
-    人机交互研究是对人和计算机的两位一体的研究，随着对人脑与认知的研究的进一步深入和神经网络在计算机领域日益重要的作用，未来基于认知科学、神经生理学和神经科学研究的转化方法将成为认知康复有效治疗发展的有前途的未来方向。
-
 
 
     \subsection{展望}
     人机交互研究是对人和计算机的两位一体的研究，
     随着对人脑与认知的研究的进一步深入和神经网络在计算机领域日益重要的作用，
     未来基于人机交互、认知科学、神经生理学和神经科学研究的转化方法将成为认知康复有效治疗发展的有前途的未来方向。
-    经过我们调研总结，未来的认知训练模式将具有以下几个特性：
+    经过本文的调研总结，未来的认知训练模式将具有以下几个特性：
 
     1.精准化，个性化，具体化。
     认知训练应当做到为每个个体，每种不同的认知障碍，
@@ -471,7 +459,7 @@
     为了达成这一目的，未来的认知训练方法可能采取类人型机器人辅助训练的方法，
     这样可以方便地增加被训练者的接受度。
 
-    由以上两点我们提出一种新颖的认知训练模式猜想：家庭化机器人训练方法。
+    由以上两点本文提出一种新颖的认知训练模式猜想：家庭化机器人训练方法。
     这种方法采取类人型机器人作为与被训练者的沟通终端，从而增加被训练者的接受度，
     使用上文中阐述的深度强化学习构建训练难度自适应调整模块，
     以做到为被训练者特异性地提供训练内容，增强训练效果。
@@ -488,13 +476,13 @@
         \bibitem{ref7}Bak, J. H., Choi, J. Y., Akrami, A., Witten, I.,  Pillow, J. W. (2016). Adaptive optimal training of animal behavior. Advances in neural information processing systems, 29.
         \bibitem{ref8}Lingelbach, K., Gado, S.,  Bauer, W. (2021). Neuro-adaptive tutoring systems. 
         \bibitem{ref9}Huang Z, Javaid A, Devabhaktuni V K, et al. Development of cognitive training program with EEG headset[J]. IEEE Access, 2019, 7: 126191-126200.
-        \bibitem{ref10}Barz, M., Altmeyer, K., Malone, S., Lauer, L., Sonntag, D. (2020). Digital Pen Features Predict Task Difficulty and User Performance of Cognitive Tests. Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization. 
-        \bibitem{ref11}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
-        \bibitem{ref12}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
-        \bibitem{ref13}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
-        \bibitem{ref14}Spain, R. D., Rowe, J. P., Smith, A., Goldberg, B. S., Pokorny, R., Mott, B. W., Lester, J. C. (2021). A reinforcement learning approach to adaptive remediation in online training. The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology, 19, 173–193. 
-        \bibitem{ref15}Reidy, Lorcan, Dennis Chan, Charles Nduka and Hatice Gunes. “Facial Electromyography-based Adaptive Virtual Reality Gaming for Cognitive Training.” Proceedings of the 2020 International Conference on Multimodal Interaction (2020)
-        \bibitem{ref16}Sandeep, Sanjana, Christian R. Shelton, Anja Pahor, Susanne M. Jaeggi and Aaron R. Seitz. “Application of Machine Learning Models for Tracking Participant Skills in Cognitive Training.” Frontiers in Psychology 11 (2020)
+        \bibitem{ref10}Reidy, Lorcan, Dennis Chan, Charles Nduka and Hatice Gunes. “Facial Electromyography-based Adaptive Virtual Reality Gaming for Cognitive Training.” Proceedings of the 2020 International Conference on Multimodal Interaction (2020)
+        \bibitem{ref11}Barz, M., Altmeyer, K., Malone, S., Lauer, L., Sonntag, D. (2020). Digital Pen Features Predict Task Difficulty and User Performance of Cognitive Tests. Proceedings of the 28th ACM Conference on User Modeling, Adaptation and Personalization. 
+        \bibitem{ref12}Sandeep, Sanjana, Christian R. Shelton, Anja Pahor, Susanne M. Jaeggi and Aaron R. Seitz. “Application of Machine Learning Models for Tracking Participant Skills in Cognitive Training.” Frontiers in Psychology 11 (2020)
+        \bibitem{ref13}Kim, J., Kim, Y., Lee, H., Lee, S.,  Chung, S. (2018). Personalized Recommendation System for Efficient Integrated Cognitive Rehabilitation Training Based on Bigdata. HCI.
+        \bibitem{ref14}Zini F, Le Piane F, Gaspari M. Adaptive Cognitive Training with Reinforcement Learning[J]. ACM Transactions on Interactive Intelligent Systems (TiiS), 2022, 12(1): 1-29.
+        \bibitem{ref15}Wang, P., Rowe, J. P., Min, W., Mott, B. W.,  Lester, J. C. (2017, August). Interactive Narrative Personalization with Deep Reinforcement Learning. In IJCAI (pp. 3852-3858).
+        \bibitem{ref16}Spain, R. D., Rowe, J. P., Smith, A., Goldberg, B. S., Pokorny, R., Mott, B. W., Lester, J. C. (2021). A reinforcement learning approach to adaptive remediation in online training. The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology, 19, 173–193. 
         \bibitem{ref17}Tsiakas, Konstantinos, Maher Abujelala and Fillia Makedon. “Task Engagement as Personalization Feedback for Socially-Assistive Robots and Cognitive Training.” (2018).      
         
     \end{thebibliography}

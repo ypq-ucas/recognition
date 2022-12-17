@@ -1,169 +1,169 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2022.5.9)  17 DEC 2022 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.12.16)  17 DEC 2022 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/admin/Desktop/recognition/paper.tex
-(c:/Users/admin/Desktop/recognition/paper.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(c:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+**./paper.tex
+(paper.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04> (D:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
-) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+\bibindent=\dimen138
+) (D:\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (D:\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
-) (c:/texlive/2020/texmf-dist/tex/latex/float/float.sty
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (D:\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count175
-\float@exts=\toks16
-\float@box=\box45
-\@float@everytoks=\toks17
-\@floatcapt=\box46
-) (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\c@float@type=\count193
+\float@exts=\toks17
+\float@box=\box51
+\@float@everytoks=\toks18
+\@floatcapt=\box52
+) (D:\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (D:\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+)) (D:\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(D:\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (D:\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen137
-)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks20
+\ex@=\dimen141
+)) (D:\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen138
-) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+\pmbraise@=\dimen142
+) (D:\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count176
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count177
-\leftroot@=\count178
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count179
-\DOTSCASE@=\count180
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen139
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count181
-\c@MaxMatrixCols=\count182
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count183
-\dspbrk@lvl=\count184
-\tag@help=\toks20
-\row@=\count185
-\column@=\count186
-\maxfields@=\count187
-\andhelp@=\toks21
-\eqnshift@=\dimen140
-\alignsep@=\dimen141
-\tagshift@=\dimen142
-\tagwidth@=\dimen143
-\totwidth@=\dimen144
-\lineht@=\dimen145
-\@envbody=\toks22
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks21
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks22
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks23
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-03-06 L3 programming layer (loader) 
- (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count188
-\l__pdf_internal_box=\box49
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (D:\MiKTeX\tex/latex/ctex\ctex.sty (D:\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-07-04 L3 programming layer (loader) 
+ (D:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box55
 ))
-Package: ctex 2019/05/29 v2.4.16 Chinese adapter in LaTeX (CTEX)
- (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count189
-\g__xparse_grabber_int=\count190
-\l__xparse_m_args_int=\count191
-\l__xparse_v_nesting_int=\count192
-) (c:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexhook.sty
-Package: ctexhook 2019/05/29 v2.4.16 Document and package hooks (CTEX)
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexpatch.sty
-Package: ctexpatch 2019/05/29 v2.4.16 Patching commands (CTEX)
-) (c:/texlive/2020/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
- (c:/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
+Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
+ (D:\MiKTeX\tex/latex/ctex\ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (D:\MiKTeX\tex/latex/ctex\ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (D:\MiKTeX\tex/latex/base\fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (D:\MiKTeX\tex/latex/base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-)) (c:/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
-)
-\l__ctex_tmp_int=\count193
-\l__ctex_tmp_box=\box50
-\l__ctex_tmp_dim=\dimen146
-\g__ctex_section_depth_int=\count194
-\g__ctex_font_size_int=\count195
- (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
-File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
-File: ctex-engine-pdftex.def 2019/05/29 v2.4.16 (pdf)LaTeX adapter (CTEX)
- (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
-Package: CJKutf8 2015/04/18 4.8.4
- (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+))
+\l__ctex_tmp_int=\count273
+\l__ctex_tmp_box=\box56
+\l__ctex_tmp_dim=\dimen150
+\g__ctex_section_depth_int=\count274
+\g__ctex_font_size_int=\count275
+ (D:\MiKTeX\tex/latex/ctex/config\ctexopts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+) (D:\MiKTeX\tex/latex/ctex/engine\ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
+ (D:\MiKTeX\tex/latex/cjk\CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+ (D:\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
- (c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
-) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.sty
-Package: CJK 2015/04/18 4.8.4
- (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
-Package: MULEenc 2015/04/18 4.8.4
-) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.enc
-File: CJK.enc 2015/04/18 4.8.4
+ (D:\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (D:\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+) (D:\MiKTeX\tex/latex/cjk\CJK.sty
+Package: CJK 2021/10/16 4.8.5
+ (D:\MiKTeX\tex/latex/cjk/mule\MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+) (D:\MiKTeX\tex/latex/cjk\CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
 Now handling font encoding C00 ...
 ... no UTF-8 mapping file for font encoding C00
 Now handling font encoding C05 ...
@@ -229,85 +229,54 @@ Now handling font encoding C41 ...
 Now handling font encoding C62 ...
 ... no UTF-8 mapping file for font encoding C62
 )
-LaTeX Info: Redefining \selectfont on input line 755.
-\CJK@indent=\box51
-) (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)) (c:/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+\CJK@indent=\box57
+) (D:\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)) (D:\MiKTeX\tex/latex/cjkpunct\CJKpunct.sty
 Package: CJKpunct 2016/05/14 4.8.4
-\CJKpunct@cnta=\count196
-\CJKpunct@cntb=\count197
-\CJKpunct@cntc=\count198
-\CJKpunct@cntd=\count199
-\CJKpunct@cnte=\count266
+\CJKpunct@cnta=\count276
+\CJKpunct@cntb=\count277
+\CJKpunct@cntc=\count278
+\CJKpunct@cntd=\count279
+\CJKpunct@cnte=\count280
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201C (decimal 8220)
    defining Unicode char U+201D (decimal 8221)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2026 (decimal 8230)
- (c:/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
-Package: CJKspace 2015/04/18 3.8.0
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexspa.def
-File: ctexspa.def 2019/05/29 v2.4.16 Space info for CJKpunct (CTEX)
-) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
-Package: CJKfntef 2015/04/18 4.8.4
- (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKulem.sty
-Package: CJKulem 2015/04/18 4.8.4
- (c:/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box52
-\UL@hyphenbox=\box53
-\UL@skip=\skip52
-\UL@hook=\toks26
-\UL@height=\dimen147
-\UL@pe=\count267
-\UL@pixel=\dimen148
-\ULC@box=\box54
-Package: ulem 2019/11/18
-\ULdepth=\dimen149
+ (D:\MiKTeX\tex/latex/cjkpunct\CJKpunct.spa)) (D:\MiKTeX\tex/latex/cjk\CJKspace.sty
+Package: CJKspace 2021/10/16 3.8.0
+) (D:\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+) (D:\MiKTeX\tex/latex/ctex\ctexspa.def
+File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
 )
-\UL@lastkern=\dimen150
-\CJK@skip=\skip53
+\ccwd=\dimen151
+\l__ctex_ccglue_skip=\skip52
 )
-\CJK@fntefSkip=\skip54
-\CJK@nest=\count268
-\CJK@fntefDimen=\dimen151
-\CJK@underdotBox=\box55
-\CJK@ULbox=\box56
-\CJK@underanyskip=\dimen152
-)
-\ccwd=\dimen153
-\l__ctex_ccglue_skip=\skip55
-)
-\l__ctex_ziju_dim=\dimen154
- (c:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber.sty
-Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count269
-\l__zhnum_byte_min_int=\count270
-\l__zhnum_byte_max_int=\count271
- (c:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
-File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
-)) (c:/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
-File: ctex-scheme-chinese.def 2019/05/29 v2.4.16 Chinese scheme for generic (CTEX)
- (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
-File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
-)) (c:/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+\l__ctex_ziju_dim=\dimen152
+ (D:\MiKTeX\tex/latex/zhnumber\zhnumber.sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count281
+\l__zhnum_tmp_int=\count282
+ (D:\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
+)) (D:\MiKTeX\tex/latex/ctex/scheme\ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CTEX)
+ (D:\MiKTeX\tex/latex/ctex/config\ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+)) (D:\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (c:/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2019/05/29 v2.4.16 Windows fonts definition (CTEX)
- (c:/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
-File: ctex-fontset-windowsnew.def 2019/05/29 v2.4.16 Windows fonts definition for Vista or later version (CTEX)
- (c:/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
-File: zhwindowsfonts.tex 2019/05/29 v2.4.16 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd})))) (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
-File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
-) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
-File: UTF8.bdg 2015/04/18 4.8.4
-) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2015/04/18 4.8.4
-) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2015/04/18 4.8.4
-) (c:/Users/admin/Desktop/recognition/paper.aux
+) (D:\MiKTeX\tex/latex/ctex/fontset\ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
+)) (D:\MiKTeX\tex/latex/ctex/config\ctex.cfg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+) (D:\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (D:\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+) (paper.aux
 
 LaTeX Warning: Label `fig:label' multiply defined.
 
@@ -437,160 +406,165 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (D:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen155
-\scratchbox=\box57
-\nofMPsegments=\count273
-\nofMParguments=\count274
+\scratchcounter=\count283
+\scratchdimen=\dimen153
+\scratchbox=\box58
+\nofMPsegments=\count284
+\nofMParguments=\count285
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen156
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen154
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks28
-) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (D:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 11.
+ (D:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 LaTeX Font Info:    Trying to load font information for C70+rm on input line 12.
- (c:/texlive/2020/texmf-dist/tex/latex/ctex/fd/c70rm.fd
-File: c70rm.fd 2019/05/29 v2.4.16 Chinese font definition (CTEX)
+ (D:\MiKTeX\tex/latex/ctex/fd\c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (D:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (D:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 12.
- [1
+ (D:\MiKTeX\tex/generic/ctex/zhmap\ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
+{C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 Non-PDF special ignored!
 <special> dvipdfmx:config z 0
 
 ] [2]
-<images/timeline_bio.png, id=167, 1114.1625pt x 483.0045pt>
+<images/timeline_bio.png, id=163, 1114.1625pt x 483.0045pt>
 File: images/timeline_bio.png Graphic file (type png)
 <use images/timeline_bio.png>
-Package pdftex.def Info: images/timeline_bio.png  used on input line 53.
-(pdftex.def)             Requested size: 312.00119pt x 135.25507pt.
- [3 <c:/Users/admin/Desktop/recognition/images/timeline_bio.png>]
-<images/brain_distribute.png, id=182, 174.6525pt x 196.48407pt>
+Package pdftex.def Info: images/timeline_bio.png  used on input line 50.
+(pdftex.def)             Requested size: 390.0pt x 169.06883pt.
+ [3 <./images/timeline_bio.png>]
+<images/brain_distribute.png, id=180, 174.6525pt x 196.48407pt>
 File: images/brain_distribute.png Graphic file (type png)
 <use images/brain_distribute.png>
-Package pdftex.def Info: images/brain_distribute.png  used on input line 71.
+Package pdftex.def Info: images/brain_distribute.png  used on input line 65.
 (pdftex.def)             Requested size: 139.72218pt x 157.18745pt.
- [4 <c:/Users/admin/Desktop/recognition/images/brain_distribute.png>]
-<images/brain_data.png, id=191, 280.04625pt x 308.95425pt>
+ [4 <./images/brain_distribute.png>]
+<images/brain_data.png, id=190, 280.04625pt x 308.95425pt>
 File: images/brain_data.png Graphic file (type png)
 <use images/brain_data.png>
-Package pdftex.def Info: images/brain_data.png  used on input line 92.
-(pdftex.def)             Requested size: 224.0373pt x 247.16373pt.
- [5]
+Package pdftex.def Info: images/brain_data.png  used on input line 81.
+(pdftex.def)             Requested size: 280.04555pt x 308.95349pt.
+ [5 <./images/brain_data.png>]
 <images/Faceteq.png, id=197, 394.5942pt x 153.6942pt>
 File: images/Faceteq.png Graphic file (type png)
 <use images/Faceteq.png>
-Package pdftex.def Info: images/Faceteq.png  used on input line 104.
+Package pdftex.def Info: images/Faceteq.png  used on input line 98.
 (pdftex.def)             Requested size: 315.67577pt x 122.9555pt.
- [6 <c:/Users/admin/Desktop/recognition/images/brain_data.png>]
-<images/VR.png, id=204, 370.0224pt x 227.4096pt>
+<images/VR.png, id=198, 370.0224pt x 227.4096pt>
 File: images/VR.png Graphic file (type png)
 <use images/VR.png>
-Package pdftex.def Info: images/VR.png  used on input line 118.
+Package pdftex.def Info: images/VR.png  used on input line 112.
 (pdftex.def)             Requested size: 296.01831pt x 181.92792pt.
- [7 <c:/Users/admin/Desktop/recognition/images/Faceteq.png> <c:/Users/admin/Desktop/recognition/images/VR.png>] [8]
-<images/digital_pen.png, id=218, 485.815pt x 272.01625pt>
+ [6 <./images/Faceteq.png>] [7 <./images/VR.png>]
+<images/digital_pen.png, id=212, 485.815pt x 272.01625pt>
 File: images/digital_pen.png Graphic file (type png)
 <use images/digital_pen.png>
-Package pdftex.def Info: images/digital_pen.png  used on input line 160.
+Package pdftex.def Info: images/digital_pen.png  used on input line 154.
 (pdftex.def)             Requested size: 242.9069pt x 136.00778pt.
+ [8 <./images/digital_pen.png>]
 <images/pen_result.png, id=219, 1074.0125pt x 612.2875pt>
 File: images/pen_result.png Graphic file (type png)
 <use images/pen_result.png>
-Package pdftex.def Info: images/pen_result.png  used on input line 173.
+Package pdftex.def Info: images/pen_result.png  used on input line 167.
 (pdftex.def)             Requested size: 322.20624pt x 183.68767pt.
- [9 <c:/Users/admin/Desktop/recognition/images/digital_pen.png>]
-<images/timeline_AI.png, id=226, 1153.911pt x 446.26724pt>
+<images/timeline_AI.png, id=221, 1153.911pt x 446.26724pt>
 File: images/timeline_AI.png Graphic file (type png)
 <use images/timeline_AI.png>
-Package pdftex.def Info: images/timeline_AI.png  used on input line 190.
-(pdftex.def)             Requested size: 312.00119pt x 120.664pt.
- [10 <c:/Users/admin/Desktop/recognition/images/pen_result.png>] [11 <c:/Users/admin/Desktop/recognition/images/timeline_AI.png>]
-<images/Overall_architecture.png, id=239, 450.9347pt x 231.11343pt>
+Package pdftex.def Info: images/timeline_AI.png  used on input line 184.
+(pdftex.def)             Requested size: 390.0pt x 150.83pt.
+ [9 <./images/pen_result.png>] [10 <./images/timeline_AI.png>]
+<images/Overall_architecture.png, id=235, 450.9347pt x 231.11343pt>
 File: images/Overall_architecture.png Graphic file (type png)
 <use images/Overall_architecture.png>
-Package pdftex.def Info: images/Overall_architecture.png  used on input line 228.
-(pdftex.def)             Requested size: 315.65213pt x 161.77829pt.
- [12]
-<images/flow_theory.png, id=246, 529.22719pt x 153.57375pt>
+Package pdftex.def Info: images/Overall_architecture.png  used on input line 218.
+(pdftex.def)             Requested size: 360.74825pt x 184.89099pt.
+
+Overfull \hbox (5.17567pt too wide) in paragraph at lines 223--224
+\C70/rm/m/n/12/67 œ |\C70/rm/m/n/12/ff ^^H|\C70/rm/m/n/12/8b ­ \C70/rm/m/n/12/7e Ã \C70/rm/m/n/12/65 ö \C70/rm/m/n/12/95 ô|\C70/rm/m/n/12/30 ^^A| \C70/rm/m/n/12/53 Í \C70/rm/m/n/12/5e ” \C70/rm/m/n/12/6b ! \C70/rm/m/n/12/65 p|\C70/rm/m/n/12/30 ^^A| \C70/rm/m/n/12/51 Æ \C70/rm/m/n/12/78 n \C70/rm/m/n/12/5e ¦ \C70/rm/m/n/12/54 Œ \C70/rm/m/n/12/53 Í \C70/rm/m/n/12/5e ” \C70/rm/m/n/12/65 ö \C70/rm/m/n/12/95 ô|\C70/rm/m/n/12/ff 	| \C70/rm/m/n/12/54 Œ \C70/rm/m/n/12/4e * º \C70/rm/m/n/12/4f á \C70/rm/m/n/12/60 o \C70/rm/m/n/12/4f Ý \C70/rm/m/n/12/5b X \C70/rm/m/n/12/57 (\OT1/cmr/m/n/12 MySQL\C70/rm/m/n/12/65 p
+ []
+
+[11 <./images/Overall_architecture.png>]
+<images/flow_theory.png, id=243, 529.22719pt x 153.57375pt>
 File: images/flow_theory.png Graphic file (type png)
 <use images/flow_theory.png>
-Package pdftex.def Info: images/flow_theory.png  used on input line 241.
+Package pdftex.def Info: images/flow_theory.png  used on input line 231.
 (pdftex.def)             Requested size: 370.4565pt x 107.50089pt.
- [13 <c:/Users/admin/Desktop/recognition/images/Overall_architecture.png> <c:/Users/admin/Desktop/recognition/images/flow_theory.png>]
-<images/RL_stage.png, id=255, 359.09157pt x 237.13594pt>
+ [12 <./images/flow_theory.png>]
+<images/RL_stage.png, id=251, 359.09157pt x 237.13594pt>
 File: images/RL_stage.png Graphic file (type png)
 <use images/RL_stage.png>
-Package pdftex.def Info: images/RL_stage.png  used on input line 278.
-(pdftex.def)             Requested size: 251.36238pt x 165.994pt.
- [14] [15 <c:/Users/admin/Desktop/recognition/images/RL_stage.png>]
-<images/RL_architecture.png, id=266, 491.58656pt x 407.27156pt>
+Package pdftex.def Info: images/RL_stage.png  used on input line 268.
+(pdftex.def)             Requested size: 323.17941pt x 213.42035pt.
+ [13 <./images/RL_stage.png>]
+<images/RL_architecture.png, id=258, 491.58656pt x 407.27156pt>
 File: images/RL_architecture.png Graphic file (type png)
 <use images/RL_architecture.png>
-Package pdftex.def Info: images/RL_architecture.png  used on input line 313.
-(pdftex.def)             Requested size: 245.79268pt x 203.63527pt.
- [16 <c:/Users/admin/Desktop/recognition/images/RL_architecture.png>]
-<images/policy_value.png, id=271, 542.77782pt x 208.52907pt>
+Package pdftex.def Info: images/RL_architecture.png  used on input line 303.
+(pdftex.def)             Requested size: 344.10825pt x 285.08813pt.
+ [14]
+<images/policy_value.png, id=263, 542.77782pt x 208.52907pt>
 File: images/policy_value.png Graphic file (type png)
 <use images/policy_value.png>
-Package pdftex.def Info: images/policy_value.png  used on input line 324.
-(pdftex.def)             Requested size: 325.6692pt x 125.1184pt.
-<images/Markov_game.png, id=272, 305.26547pt x 356.0803pt>
+Package pdftex.def Info: images/policy_value.png  used on input line 314.
+(pdftex.def)             Requested size: 379.94188pt x 145.96935pt.
+ [15 <./images/RL_architecture.png>]
+<images/Markov_game.png, id=268, 305.26547pt x 356.0803pt>
 File: images/Markov_game.png Graphic file (type png)
 <use images/Markov_game.png>
-Package pdftex.def Info: images/Markov_game.png  used on input line 339.
-(pdftex.def)             Requested size: 244.21269pt x 284.86462pt.
- [17 <c:/Users/admin/Desktop/recognition/images/policy_value.png>] [18 <c:/Users/admin/Desktop/recognition/images/Markov_game.png>]
-<images/Markov_result.png, id=285, 1302.8675pt x 738.76pt>
+Package pdftex.def Info: images/Markov_game.png  used on input line 329.
+(pdftex.def)             Requested size: 305.26471pt x 356.07944pt.
+ [16 <./images/policy_value.png>] [17 <./images/Markov_game.png>]
+<images/Markov_result.png, id=281, 1302.8675pt x 738.76pt>
 File: images/Markov_result.png Graphic file (type png)
 <use images/Markov_result.png>
-Package pdftex.def Info: images/Markov_result.png  used on input line 360.
+Package pdftex.def Info: images/Markov_result.png  used on input line 350.
 (pdftex.def)             Requested size: 325.71608pt x 184.68954pt.
-<images/RL_Frame.png, id=286, 436.029pt x 416.757pt>
+<images/RL_Frame.png, id=282, 436.029pt x 416.757pt>
 File: images/RL_Frame.png Graphic file (type png)
 <use images/RL_Frame.png>
-Package pdftex.def Info: images/RL_Frame.png  used on input line 378.
+Package pdftex.def Info: images/RL_Frame.png  used on input line 368.
 (pdftex.def)             Requested size: 348.82367pt x 333.40605pt.
- [19 <c:/Users/admin/Desktop/recognition/images/Markov_result.png>]
-<images/user_model.png, id=294, 618.6312pt x 330.5148pt>
+ [18 <./images/Markov_result.png>]
+<images/user_model.png, id=289, 618.6312pt x 330.5148pt>
 File: images/user_model.png Graphic file (type png)
 <use images/user_model.png>
-Package pdftex.def Info: images/user_model.png  used on input line 387.
+Package pdftex.def Info: images/user_model.png  used on input line 377.
 (pdftex.def)             Requested size: 371.18158pt x 198.3104pt.
- [20 <c:/Users/admin/Desktop/recognition/images/RL_Frame.png>] [21 <c:/Users/admin/Desktop/recognition/images/user_model.png>] [22] [23] [24] [25] [26] (c:/Users/admin/Desktop/recognition/paper.aux)
+ [19 <./images/RL_Frame.png>] [20 <./images/user_model.png>] [21] [22] [23] [24] [25] (paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8454 strings out of 480608
- 135118 string characters out of 5907537
- 351863 words of memory out of 5000000
- 23805 multiletter control sequences out of 15000+600000
- 584110 words of font info for 217 fonts, out of 8000000 for 9000
+ 7810 strings out of 478338
+ 135560 string characters out of 2853117
+ 422371 words of memory out of 3000000
+ 25776 multiletter control sequences out of 15000+600000
+ 523925 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,7n,52p,517b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on c:/Users/admin/Desktop/recognition/paper.pdf (26 pages, 3638444 bytes).
+ 77i,8n,80p,692b,448s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on paper.pdf (25 pages, 3782974 bytes).
 PDF statistics:
- 719 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
+ 716 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
