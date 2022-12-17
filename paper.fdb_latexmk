@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1671245075 "c:/Users/admin/Desktop/recognition/paper.tex" "c:/Users/admin/Desktop/recognition/paper.pdf" "paper" 1671245078
-  "c:/Users/admin/Desktop/recognition/paper.aux" 1671245077 7464 705eab1a41c014011a3e51fff10f8af1 ""
-  "c:/Users/admin/Desktop/recognition/paper.tex" 1671245071 37788 e85f58247626ddc415fca42a802bcd70 ""
+["pdflatex"] 1671246012 "c:/Users/admin/Desktop/recognition/paper.tex" "c:/Users/admin/Desktop/recognition/paper.pdf" "paper" 1671246015
+  "c:/Users/admin/Desktop/recognition/paper.aux" 1671246014 7995 9c1ce3641df38d966d9d24d90da8681e ""
+  "c:/Users/admin/Desktop/recognition/paper.tex" 1671246008 39637 ef2464756aec8137c31dc8e2ecd9f62b ""
   "c:/Windows/Fonts/msyh.ttc" 1575709707 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/Windows/Fonts/simhei.ttf" 1571147160 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simsun.ttc" 1575709707 18214472 19674afc0754c3df8182b89fe7f0156d ""
@@ -240,12 +240,14 @@
   "images/flow_theory.png" 1671184106 54393 2252e4310d8f127e509aa4580477391d ""
   "images/pen_result.png" 1671184106 138218 b45908b1495d3b016e4440878002d719 ""
   "images/policy_value.png" 1671184106 116172 89649017ea1d1dcaa60fd7d83dbdff69 ""
+  "images/timeline_AI.png" 1671245889 93547 a7be0e7f443d4533093d3158b4323c53 ""
+  "images/timeline_bio.png" 1671245668 88830 2158e137444211d403616bfb1d94eea5 ""
   "images/user_model.png" 1671164937 111009 b4dd00885235ef194c985a116c52f3b6 ""
-  "paper.aux" 1671245077 7464 705eab1a41c014011a3e51fff10f8af1 "pdflatex"
-  "paper.tex" 1671245071 37788 e85f58247626ddc415fca42a802bcd70 ""
+  "paper.aux" 1671246014 7995 9c1ce3641df38d966d9d24d90da8681e "pdflatex"
+  "paper.tex" 1671246008 39637 ef2464756aec8137c31dc8e2ecd9f62b ""
   (generated)
-  "paper.aux"
-  "c:/Users/admin/Desktop/recognition/paper.log"
   "paper.log"
   "paper.pdf"
+  "paper.aux"
   "c:/Users/admin/Desktop/recognition/paper.pdf"
+  "c:/Users/admin/Desktop/recognition/paper.log"

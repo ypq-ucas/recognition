@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2022.5.9)  17 DEC 2022 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2022.5.9)  17 DEC 2022 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,6 +352,12 @@ LaTeX Warning: Label `fig:label' multiply defined.
 
 LaTeX Warning: Label `fig:label' multiply defined.
 
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
 )
 \openout1 = `paper.aux'.
 
@@ -471,125 +477,138 @@ Non-PDF special ignored!
 <special> dvipdfmx:config z 0
 
 ] [2]
-<images/brain_distribute.png, id=172, 174.6525pt x 196.48407pt>
+<images/timeline_bio.png, id=172, 1114.1625pt x 483.0045pt>
+File: images/timeline_bio.png Graphic file (type png)
+<use images/timeline_bio.png>
+Package pdftex.def Info: images/timeline_bio.png  used on input line 52.
+(pdftex.def)             Requested size: 276.00105pt x 119.64531pt.
+<images/brain_distribute.png, id=174, 174.6525pt x 196.48407pt>
 File: images/brain_distribute.png Graphic file (type png)
 <use images/brain_distribute.png>
-Package pdftex.def Info: images/brain_distribute.png  used on input line 48.
+Package pdftex.def Info: images/brain_distribute.png  used on input line 70.
 (pdftex.def)             Requested size: 139.72218pt x 157.18745pt.
- [3 <c:/Users/admin/Desktop/recognition/images/brain_distribute.png>]
-<images/brain_data.png, id=188, 280.04625pt x 308.95425pt>
+ [3 <c:/Users/admin/Desktop/recognition/images/timeline_bio.png>]
+<images/brain_data.png, id=189, 280.04625pt x 308.95425pt>
 File: images/brain_data.png Graphic file (type png)
 <use images/brain_data.png>
-Package pdftex.def Info: images/brain_data.png  used on input line 69.
+Package pdftex.def Info: images/brain_data.png  used on input line 91.
 (pdftex.def)             Requested size: 224.0373pt x 247.16373pt.
-<images/Faceteq.png, id=189, 394.5942pt x 153.6942pt>
+ [4 <c:/Users/admin/Desktop/recognition/images/brain_distribute.png>]
+<images/Faceteq.png, id=196, 394.5942pt x 153.6942pt>
 File: images/Faceteq.png Graphic file (type png)
 <use images/Faceteq.png>
-Package pdftex.def Info: images/Faceteq.png  used on input line 81.
+Package pdftex.def Info: images/Faceteq.png  used on input line 103.
 (pdftex.def)             Requested size: 315.67577pt x 122.9555pt.
- [4 <c:/Users/admin/Desktop/recognition/images/brain_data.png>]
-<images/VR.png, id=198, 370.0224pt x 227.4096pt>
+ [5 <c:/Users/admin/Desktop/recognition/images/brain_data.png> <c:/Users/admin/Desktop/recognition/images/Faceteq.png>]
+<images/VR.png, id=204, 370.0224pt x 227.4096pt>
 File: images/VR.png Graphic file (type png)
 <use images/VR.png>
-Package pdftex.def Info: images/VR.png  used on input line 95.
+Package pdftex.def Info: images/VR.png  used on input line 117.
 (pdftex.def)             Requested size: 296.01831pt x 181.92792pt.
- [5 <c:/Users/admin/Desktop/recognition/images/Faceteq.png>] [6 <c:/Users/admin/Desktop/recognition/images/VR.png>]
-<images/digital_pen.png, id=209, 485.815pt x 272.01625pt>
+ [6 <c:/Users/admin/Desktop/recognition/images/VR.png>]
+<images/digital_pen.png, id=211, 485.815pt x 272.01625pt>
 File: images/digital_pen.png Graphic file (type png)
 <use images/digital_pen.png>
-Package pdftex.def Info: images/digital_pen.png  used on input line 137.
+Package pdftex.def Info: images/digital_pen.png  used on input line 159.
 (pdftex.def)             Requested size: 242.9069pt x 136.00778pt.
-<images/pen_result.png, id=210, 1074.0125pt x 612.2875pt>
+ [7]
+<images/pen_result.png, id=218, 1074.0125pt x 612.2875pt>
 File: images/pen_result.png Graphic file (type png)
 <use images/pen_result.png>
-Package pdftex.def Info: images/pen_result.png  used on input line 150.
+Package pdftex.def Info: images/pen_result.png  used on input line 172.
 (pdftex.def)             Requested size: 322.20624pt x 183.68767pt.
- [7 <c:/Users/admin/Desktop/recognition/images/digital_pen.png>] [8 <c:/Users/admin/Desktop/recognition/images/pen_result.png>]
-<images/Overall_architecture.png, id=228, 450.9347pt x 231.11343pt>
+ [8 <c:/Users/admin/Desktop/recognition/images/digital_pen.png> <c:/Users/admin/Desktop/recognition/images/pen_result.png>]
+<images/timeline_AI.png, id=227, 1153.911pt x 446.26724pt>
+File: images/timeline_AI.png Graphic file (type png)
+<use images/timeline_AI.png>
+Package pdftex.def Info: images/timeline_AI.png  used on input line 189.
+(pdftex.def)             Requested size: 276.00105pt x 106.7386pt.
+ [9 <c:/Users/admin/Desktop/recognition/images/timeline_AI.png>]
+<images/Overall_architecture.png, id=235, 450.9347pt x 231.11343pt>
 File: images/Overall_architecture.png Graphic file (type png)
 <use images/Overall_architecture.png>
-Package pdftex.def Info: images/Overall_architecture.png  used on input line 191.
+Package pdftex.def Info: images/Overall_architecture.png  used on input line 227.
 (pdftex.def)             Requested size: 315.65213pt x 161.77829pt.
- [9]
-<images/flow_theory.png, id=235, 529.22719pt x 153.57375pt>
+ [10]
+<images/flow_theory.png, id=242, 529.22719pt x 153.57375pt>
 File: images/flow_theory.png Graphic file (type png)
 <use images/flow_theory.png>
-Package pdftex.def Info: images/flow_theory.png  used on input line 204.
+Package pdftex.def Info: images/flow_theory.png  used on input line 240.
 (pdftex.def)             Requested size: 370.4565pt x 107.50089pt.
 
-Overfull \hbox (25.4565pt too wide) in paragraph at lines 204--205
+Overfull \hbox (25.4565pt too wide) in paragraph at lines 240--241
  [][] 
  []
 
-[10 <c:/Users/admin/Desktop/recognition/images/Overall_architecture.png> <c:/Users/admin/Desktop/recognition/images/flow_theory.png>]
-<images/RL_stage.png, id=243, 359.09157pt x 237.13594pt>
+[11 <c:/Users/admin/Desktop/recognition/images/Overall_architecture.png> <c:/Users/admin/Desktop/recognition/images/flow_theory.png>]
+<images/RL_stage.png, id=250, 359.09157pt x 237.13594pt>
 File: images/RL_stage.png Graphic file (type png)
 <use images/RL_stage.png>
-Package pdftex.def Info: images/RL_stage.png  used on input line 241.
+Package pdftex.def Info: images/RL_stage.png  used on input line 277.
 (pdftex.def)             Requested size: 251.36238pt x 165.994pt.
- [11 <c:/Users/admin/Desktop/recognition/images/RL_stage.png>]
-<images/RL_architecture.png, id=250, 491.58656pt x 407.27156pt>
+ [12 <c:/Users/admin/Desktop/recognition/images/RL_stage.png>]
+<images/RL_architecture.png, id=257, 491.58656pt x 407.27156pt>
 File: images/RL_architecture.png Graphic file (type png)
 <use images/RL_architecture.png>
-Package pdftex.def Info: images/RL_architecture.png  used on input line 276.
+Package pdftex.def Info: images/RL_architecture.png  used on input line 312.
 (pdftex.def)             Requested size: 245.79268pt x 203.63527pt.
- [12]
-<images/policy_value.png, id=255, 542.77782pt x 208.52907pt>
+ [13]
+<images/policy_value.png, id=263, 542.77782pt x 208.52907pt>
 File: images/policy_value.png Graphic file (type png)
 <use images/policy_value.png>
-Package pdftex.def Info: images/policy_value.png  used on input line 287.
+Package pdftex.def Info: images/policy_value.png  used on input line 323.
 (pdftex.def)             Requested size: 325.6692pt x 125.1184pt.
- [13 <c:/Users/admin/Desktop/recognition/images/RL_architecture.png> <c:/Users/admin/Desktop/recognition/images/policy_value.png>]
-<images/Markov_game.png, id=262, 305.26547pt x 356.0803pt>
+ [14 <c:/Users/admin/Desktop/recognition/images/RL_architecture.png> <c:/Users/admin/Desktop/recognition/images/policy_value.png>]
+<images/Markov_game.png, id=269, 305.26547pt x 356.0803pt>
 File: images/Markov_game.png Graphic file (type png)
 <use images/Markov_game.png>
-Package pdftex.def Info: images/Markov_game.png  used on input line 302.
+Package pdftex.def Info: images/Markov_game.png  used on input line 338.
 (pdftex.def)             Requested size: 244.21269pt x 284.86462pt.
- [14 <c:/Users/admin/Desktop/recognition/images/Markov_game.png>]
-<images/Markov_result.png, id=271, 1302.8675pt x 738.76pt>
+ [15 <c:/Users/admin/Desktop/recognition/images/Markov_game.png>]
+<images/Markov_result.png, id=278, 1302.8675pt x 738.76pt>
 File: images/Markov_result.png Graphic file (type png)
 <use images/Markov_result.png>
-Package pdftex.def Info: images/Markov_result.png  used on input line 323.
+Package pdftex.def Info: images/Markov_result.png  used on input line 359.
 (pdftex.def)             Requested size: 325.71608pt x 184.68954pt.
- [15 <c:/Users/admin/Desktop/recognition/images/Markov_result.png>]
-<images/RL_Frame.png, id=276, 436.029pt x 416.757pt>
+ [16 <c:/Users/admin/Desktop/recognition/images/Markov_result.png>]
+<images/RL_Frame.png, id=283, 436.029pt x 416.757pt>
 File: images/RL_Frame.png Graphic file (type png)
 <use images/RL_Frame.png>
-Package pdftex.def Info: images/RL_Frame.png  used on input line 341.
+Package pdftex.def Info: images/RL_Frame.png  used on input line 377.
 (pdftex.def)             Requested size: 348.82367pt x 333.40605pt.
 
-Overfull \hbox (3.82367pt too wide) in paragraph at lines 341--342
+Overfull \hbox (3.82367pt too wide) in paragraph at lines 377--378
  [][] 
  []
 
-<images/user_model.png, id=277, 618.6312pt x 330.5148pt>
+<images/user_model.png, id=284, 618.6312pt x 330.5148pt>
 File: images/user_model.png Graphic file (type png)
 <use images/user_model.png>
-Package pdftex.def Info: images/user_model.png  used on input line 350.
+Package pdftex.def Info: images/user_model.png  used on input line 386.
 (pdftex.def)             Requested size: 371.18158pt x 198.3104pt.
 
-Overfull \hbox (26.18158pt too wide) in paragraph at lines 350--351
+Overfull \hbox (26.18158pt too wide) in paragraph at lines 386--387
  [][] 
  []
 
-[16 <c:/Users/admin/Desktop/recognition/images/RL_Frame.png>] [17 <c:/Users/admin/Desktop/recognition/images/user_model.png>] [18] [19] [20] [21] [22] (c:/Users/admin/Desktop/recognition/paper.aux)
+[17 <c:/Users/admin/Desktop/recognition/images/RL_Frame.png>] [18 <c:/Users/admin/Desktop/recognition/images/user_model.png>] [19] [20] [21] [22] [23] (c:/Users/admin/Desktop/recognition/paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8443 strings out of 480608
- 135800 string characters out of 5907537
+ 8460 strings out of 480608
+ 136166 string characters out of 5907537
  355250 words of memory out of 5000000
- 23797 multiletter control sequences out of 15000+600000
+ 23812 multiletter control sequences out of 15000+600000
  586459 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,7n,52p,604b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,7n,52p,556b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on c:/Users/admin/Desktop/recognition/paper.pdf (22 pages, 3532597 bytes).
+Output written on c:/Users/admin/Desktop/recognition/paper.pdf (23 pages, 3655966 bytes).
 PDF statistics:
- 710 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
+ 717 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
